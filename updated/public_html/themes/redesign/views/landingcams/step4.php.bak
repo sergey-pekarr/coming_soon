@@ -1,0 +1,37 @@
+<div class="landingcams-box landingcams-step4">
+
+	<p class="bold">
+		There was a problem with your transaction <br /> and your card was declined. 
+		<br /><br /><br />
+		Please try another card
+		<br />		
+	</p>
+	
+	<p style="padding-top:30px;">
+    	redirecting  &nbsp;&nbsp;
+        <img width="16" height="16" src="/images/ajax-loader.gif" />
+	</p>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+<script>
+<!--
+
+	$(document).ready(function() 
+	{
+		window.setTimeout(function() { window.location.href='<?php echo SITE_URL ?>/'; }, 10000);
+	});
+
+//-->
+</script>
+
+

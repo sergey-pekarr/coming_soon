@@ -1,0 +1,541 @@
+.form .submit {text-align: center; padding: 20px 0 10px 0;}
+
+.form .hint
+{
+	margin: 0;
+	padding: 0;
+	color: #999;
+}
+
+.form dl .row {
+    cursor: text;
+    margin: 0 auto 12px auto;
+    margin-left: 0;
+    min-height: 44px;
+    position: relative;
+}
+.form .row dt {
+    float: left;
+    text-align: left;
+    width: 100px;
+}
+.form .row dt label {
+    font-weight: bold;
+    text-align: left;
+    width: 100px;
+    font-size: 12px;
+    padding-top: 4px;
+    position: relative;
+    /*top: 2px;*/
+    
+}
+.form .row dt label span.required {display: none;}
+.form .row dd {
+    float: left;
+    text-align: left;
+    width: 210px;
+}
+.form .row input {
+    font-size: 15px;
+}
+
+
+.left-chars-counter {
+    color: #CCCCCC;
+    float: right;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+
+.form .row dd label {font-weight: normal; float: none;}
+
+
+
+
+/*ERRORS*/
+.form div.error input, 
+.form div.error textarea, 
+.form div.error select, 
+.form input.error, 
+.form textarea.error, 
+.form select.error {
+    background: none repeat scroll 0 0 #FFEEEE;
+    border-color: #CC0000;
+}
+.form div.error label, 
+.form label.error, 
+.form span.error {
+    color: #CC0000;
+}
+.form .row dd.errorMessage {
+    height: 0;
+    /*background: url("/images/design/notok.gif") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    width: 16px;
+    display: none;
+    margin: 5px 0 0 12px;
+    float: right;*/
+}
+
+
+
+/*SIGN UP & step 2*/
+#signup-area,
+#reg_step2_form_box {
+    /*background: none repeat scroll 0 0 #AA2850;*/
+    
+}
+#signup-area label,
+#reg_step2_form_box label {
+	font-weight: bold; 
+	color: #36437e; 
+	font-size:12px;
+	
+}
+
+
+#signup-area .row,
+#reg_step2_form_box .row {min-height: 26px}
+
+#signup-area .row dt, 
+#signup-area .row dt label {width: 135px;}
+#reg_step2_form_box .row dt,
+#reg_step2_form_box dt label {width: 145px;}
+
+#signup-area .row dd {width: 208px;}
+#reg_step2_form_box .row dd  {width: 210px;}
+
+#signup-area .row {padding-left: 30px;width: 360px;}
+#reg_step2_form_box .row {padding-left: 30px; width: 360px;}
+
+#signup-area .row select {
+	width: 208px;
+	height: 32px;
+    line-height: 32px;
+    padding: 6px;
+    
+    border: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;    
+}
+#reg_step2_form_box .row select {width: 193px;}
+#signup-area .row input {
+	width: 192px;
+	height: 32px;
+    line-height: 32px;
+    padding: 0 8px;
+    
+    border: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;     
+}
+#reg_step2_form_box .row input {width: 184px;}
+
+
+#reg_step2_form_box .row.notifyMe input {width: auto;}
+#reg_step2_form_box .row.notifyMe dt {width: 325px;}
+#reg_step2_form_box .row.notifyMe dt label {width: 305px;}
+#reg_step2_form_box .row.notifyMe dd  {width: 30px; padding-top: 12px}
+
+
+/*#reg_step2_form_box .row.username {margin-top: 30px}*/
+/*#reg_step2_form_box .row #UserRegistrationStep2Form_username {width: 180px;}*/
+
+#reg_step2_form_box .row #UserRegistrationStep2Form_birthday_year {
+    padding-left: 2px;
+    width: 60px;
+}
+#reg_step2_form_box .row.birthday select {
+    float: left;
+    margin-right: 4px;
+}
+#reg_step2_form_box .row #UserRegistrationStep2Form_birthday_month {
+    padding-left: 2px;
+    width: 82px;
+}
+#reg_step2_form_box .row #UserRegistrationStep2Form_birthday_day {
+    padding-left: 2px;
+    width: 44px;
+}
+#reg_step2_form_box .row.birthday select {
+    float: left;
+    margin-right: 4px;
+}
+
+#signup-area .row.email2,
+#signup-area .row.password2 {display: none;}
+
+#signup-area .row.email2 label,
+#signup-area .row.password2 label {padding-top: 0; top: -2px;}
+#signup-area .row dd.errorMessage {margin-left: 0;}
+
+#signup-area .ages select#UserRegistrationForm_age1{float: left; margin-right: 16px}
+#signup-area .ages dd label {float: left; padding-top: 3px}
+#signup-area .ages select#UserRegistrationForm_age2 {float: right}
+#signup-area .ages select {width: 78px;}
+
+#reg_step2_form_box .row.city {
+	position: relative;
+}
+#reg_step2_form_box .row.city #cityLoading {
+	display: none;
+	width: 16px; height: 16px;
+	position: absolute; top: 6px; right: 22px; z-index: 100;
+	background:url(/images/design/loading.gif) 0 0 no-repeat;
+}
+
+
+#signup-area .submit,
+#reg_step2_form_box .submit
+ {
+	background: url("/images/design/btnJoin.png") no-repeat;
+	
+	
+    border: 0 none;
+    cursor: pointer;
+    height: 59px;
+    margin: 20px 0;
+    text-indent: -9999px;
+    width: 350px;    
+}
+#signup-area .submit:hover,
+#reg_step2_form_box .submit:hover {
+	/*background-position: 0 -258px*/
+	
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=88);
+	-moz-opacity: 0.88;
+	-khtml-opacity: 0.88;
+	opacity: 0.88;	    
+}
+
+#content.guest #signup-area label,
+#content.guest #reg_step2_form_box label {color: #fff; font-weight: normal; font-size: 14px}
+#content.guest #signup-area dl .row {margin-bottom: 6px}
+#content.guest #reg_step2_form_box .row {margin-bottom: 0}
+#content.guest #reg_step2_form_box .submit {margin: 6px 0 10px 0;}
+
+
+
+
+
+
+
+
+/*SIGN IN (LOGIN FORM)*/
+#reg_login_form {
+    /*width: 500px;*/
+    padding-top: 6px;
+}
+
+#reg_login_form form,
+#reg_login_form dl,
+#reg_login_form dt, 
+#reg_login_form dd,
+#reg_login_form button {
+    float: left;
+}
+
+#reg_login_form dt label {color: #fff; margin-right:10px; /*position: relative; top: 4px;*/} 
+
+#reg_login_form button {margin-top: 1px; /*margin-left: 10px;*/}
+#reg_login_form dd {margin-left: 0; margin-right: 4px;}
+
+#reg_login_form dd input[type="text"],
+#reg_login_form dd input[type="password"] {width: 84px; height: 16px; line-height: 16px}
+#reg_login_form dd input[type="text"]:-moz-placeholder,
+#reg_login_form dd input[type="password"]:-moz-placeholder {
+  font-size: 9px;
+}
+
+/*#reg_login_form dd input[type="checkbox"] {position: relative; top: 6px;}*/
+
+#reg_login_form dt,
+#reg_login_form label,
+#reg_login_form dd {width: auto;}
+
+#reg_login_form input {padding: 2px 4px}
+#reg_login_form button {padding: 0 4px}
+
+
+/*#reg_login_form .row dt, 
+#reg_login_form .row dt label 
+{width: 90px;}
+#reg_login_form .row dd {width: 160px;}
+#reg_login_form .row dd.errorMessage {width: 16px;}
+#reg_login_form .row dd input[type="text"],
+#reg_login_form .row dd input[type="password"] {width: 160px;}
+#reg_login_form .row.rememberMe dd {width: 170px; text-align: right;}*/
+/*#reg_login_form {
+    padding: 0;
+    width: 330px;
+    margin-left: -165px;
+}
+#reg_login_form .row dt, 
+#reg_login_form .row dt label 
+{width: 90px;}
+#reg_login_form .row dd {width: 160px;}
+#reg_login_form .row dd.errorMessage {width: 16px;}
+#reg_login_form .row dd input[type="text"],
+#reg_login_form .row dd input[type="password"] {width: 160px;}
+#reg_login_form .row.rememberMe dd {width: 170px; text-align: right;} */
+
+#reg_login_form.signin2 {
+    
+    float: none; 
+    width: 360px; 
+    margin: 20px auto 0 auto;
+    padding: 10px 0 10px 0;
+    
+    height: 280px;
+    
+
+	
+
+}
+#reg_login_form.signin2 h2 {margin-bottom: 20px; text-align: center; font-size: 20px}
+#reg_login_form.signin2 dl {margin-left: 40px;}
+#reg_login_form.signin2 dt label {width: 100px; text-align: left; font-weight: bold; color: #333}
+#reg_login_form.signin2 dd input[type="text"],
+#reg_login_form.signin2 dd input[type="password"] {width: 150px;}
+#reg_login_form.signin2 .btn {float: none; padding: 4px 8px}
+
+.reg2notice {
+	clear: both;
+    margin: 0 auto;
+    padding: 0;
+    width: 340px;
+    font-size: 10px; 
+    line-height: 12px;
+    text-align: justify;
+    color: #fff;
+}
+.reg2notice a {font-size: 10px; line-height: 12px; color: #7793CF}
+
+/*REG STEP2*/
+/*
+#reg_step2_form_box { 
+    padding: 10px 40px 40px 40px; 
+    width: 840px; 
+    
+    -moz-border-radius: 14px 14px 14px 14px;
+    background-color: #F3F3F3;    
+}
+#reg_step2_form_box h2 {margin-bottom: 20px;}
+#reg_step2_form_box .step2left {width: 420px; float: left;}
+#reg_step2_form_box .step2right {width: 400px; float: right;}
+
+#reg_step2_form_box .step2left .row {
+    margin-top: 8px;
+    min-height: 40px;
+    width: 420px;
+}
+#reg_step2_form_box .step2left .row dt,
+#reg_step2_form_box .step2left .row dt label {width: 160px;}
+#reg_step2_form_box .step2left .row dd select {width: 220px;}
+
+#reg_step2_form_box .step2left .row.interesting dd {width: 150px;}
+#reg_step2_form_box .step2left .row.interesting dd.errorMessage {width: 16px;float: left; margin-left: -20px;}
+#reg_step2_form_box .step2left .row.interesting dd label, 
+#reg_step2_form_box .step2left .row.interesting dd input {width: auto; float: none; padding: 0;}
+
+#reg_step2_form_box .step2left .row.description {float: none; width: 380px; text-align: justify;}
+#reg_step2_form_box .step2left .row.description label {float: none;}
+#reg_step2_form_box .step2left .row.description textarea {width: 380px; height: 72px;}
+
+#reg_step2_form_box .step2right .row {
+    margin-top: 2px;
+    min-height: 20px;
+    width: 400px;
+}
+#reg_step2_form_box .step2right #googleMap {margin-bottom: 10px;}
+#reg_step2_form_box .step2right .row dt label {padding-left: 20px;}
+#reg_step2_form_box .step2right .row dd select {width: 270px;}
+#reg_step2_form_box .step2right .row dd input {width: 260px;}
+#reg_step2_form_box .step2right .row.zip dd {width: 156px;}
+#reg_step2_form_box .step2right .row.zip dd input {width: 150px;}
+#reg_step2_form_box .step2right .row.zip dd.errorMessage {float: left; width: 16px;}
+#reg_step2_form_box .center {margin-top: 10px;}
+#reg_step2_form_box #googleMap {border: silver solid 1px; padding: 1px;}
+*/
+
+/*SEND MESSAGE*/
+#sendMessageBox {width: 454px;}
+#sendMessageBox .modal-body {padding: 0;}
+#sendMessageBox .row {width: 404px; margin: 10px 0 0 40px;}
+#sendMessageBox .row.submit {width: 360px; padding-bottom: 20px;}
+#sendMessageBox dd {margin-right: 0; width: 360px;}
+#sendMessageBox dd input {
+    background: none repeat scroll 0 0 transparent;
+    width: 360px;
+}
+#sendMessageBox dd.errorMessage {
+    padding: 0;
+    margin-top: 6px;
+    width: 16px;
+}
+#sendMessageBox dd textarea {
+    background: none repeat scroll 0 0 transparent;
+    width: 360px;
+}
+#sendMessageBox #sendStep2 {display: none; font-weight: bold; font-size: 16px; text-align: center; padding: 40px 0; color: #01A83E;}
+#sendMessageBox .left-chars-counter {padding-right: 40px;}
+
+    /*reply box*/
+#sendMessageBox.reply {width: 644px; height: 150px;}
+#sendMessageBox.reply .row {width: 594px; margin: 10px 0 0 40px;}
+#sendMessageBox.reply dd input {width: 550px;}
+#sendMessageBox.reply dd textarea {width: 550px;}
+#sendMessageBox.reply .submit {padding: 0; float: right; padding: 4px 40px 0 0;}
+#sendMessageBox.reply .left-chars-counter {float: left;}
+
+
+/*HELP MESSAGE*/
+#wrapper .helpContainer {
+    font-size: 12px;
+    margin: 0 auto;
+    width: 420px;
+    min-height: 360px;
+    padding-bottom: 50px;
+}
+#wrapper .helpContainer h2,
+#wrapper .helpContainer p {padding-left: 10px;}
+#helpForm {width: 412px;}
+#wrapper .helpContainer input.email-address {
+    height: 24px;
+    padding: 2px 4px;
+    width: 400px;
+}
+#wrapper .helpContainer textarea.message {
+    height: 150px;
+    width: 400px;
+}
+#wrapper .helpContainer .captcha {margin-top: 20px;}
+#wrapper .helpContainer .captcha dt {width: 120px; text-align: center;}
+#wrapper .helpContainer .captcha dt img {width: 120px;}
+#wrapper .helpContainer .captcha dd {width: 260px; padding-left: 20px; text-align: justify;}
+#wrapper .helpContainer .captcha dd input {width: 260px;}
+#wrapper .helpContainer .captcha dd .hint {font-size: 11px;}
+
+
+#wrapper .helpContainer .submit {text-align: center; padding: 20px 0 0 10px;}
+
+
+
+/*FEEDBACK MESSAGE*/
+#sendFeedbackBox {width: 454px;}
+#sendFeedbackBox .modal-body {padding: 0;}
+#sendFeedbackBox .row {width: 404px; margin: 10px 0 0 40px;}
+#sendFeedbackBox .row.submit {width: 360px; padding-bottom: 20px;}
+#sendFeedbackBox dd {margin-right: 0; width: 360px;}
+#sendFeedbackBox dd input {
+    background: none repeat scroll 0 0 transparent;
+    width: 360px;
+}
+#sendFeedbackBox dd.errorMessage {
+    padding: 0;
+    margin-top: 6px;
+    width: 16px;
+}
+#sendFeedbackBox dd textarea {
+    background: none repeat scroll 0 0 transparent;
+    width: 360px;
+}
+#sendFeedbackBox #sendFeedbackStep2 {display: none; font-weight: bold; font-size: 16px; text-align: center; padding: 40px 0; color: #01A83E;}
+#sendFeedbackBox .left-chars-counter {padding-right: 40px;}
+
+
+
+
+/*ACOOUNT SETTINGS*/
+.accountSettings {    font-size: 12px;
+    margin: 0 auto;
+    width: 460px;
+    min-height: 360px;
+    /*padding-bottom: 50px;
+    padding-top: 10px;*/
+}
+.accountSettings h2 {text-align: center;}
+.accountSettings .row dt,
+.accountSettings .row dt label {width: 200px;}
+.accountSettings .row dd {width: 210px;}
+.accountSettings .row dd.errorMessage {width: 16px;}
+.accountSettings .row dd input[type="radio"] {margin: 6px 0 0 0;}
+.accountSettings .row dd label {float: none; padding-top: 0; padding-bottom: 6px; position: relative; top: -2px;}
+
+
+
+
+
+
+/*USER (PROFILE) EDIT*/
+.primary ul.tabs {padding-left: 20px;}
+#userBox {width: 152px; /*float: left; margin-right: 90px;*/}
+#userEdit {width: 750px; margin: 0 auto; /*float: left;*/}
+
+#userEdit #mainEditTab,
+#userEdit #appearanceEditTab,
+#userEdit #lifestyleEditTab,
+#userEdit #locationEditTab {padding-left: 110px;}
+
+#userEdit .form {min-height: 400px;}
+#userEdit .form dl .row {min-height: 30px; margin-top: 10px;}
+#userEdit .form dt {padding-top: 2px; width: 300px;}
+#userEdit .form dt label {padding-top: 0; width: 300px;}
+#userEdit .form .submit {text-align: left; padding-left: 240px;}
+#userEdit .errorMessage {float: left; margin: 6px 0 0 20px; padding: 6px;}
+#userEdit .form dd {width: 250px;}
+#userEdit .form dd.errorMessage {width: 16px;}
+/*#userEdit .form .interesting dd label {display: inline; font-weight: normal; float: none;}*/
+#userEdit .form input[type="text"] {width: 200px;}
+#userEdit .form .birthday select {width: auto;}
+#userEdit .form .description {padding-top: 20px;}
+#userEdit .form .description dt,
+#userEdit .form .description dt label {width: 510px;}
+#userEdit .form textarea {width: 510px; height: 150px; float: left;}
+#userEdit .form #UserEditMainTabForm_description_count_sym {width: 510px; float: none; text-align: right;}
+
+    /*location*/
+#userEdit #locationEditTab #googleMap {border: silver solid 1px; padding: 1px;}
+#userEdit #locationEditTab .form dl {padding-left: 20px;}
+#userEdit #locationEditTab .form dt,
+#userEdit #locationEditTab .form dt label {width: 100px;}
+#userEdit #locationEditTab .form dd {width: 400px;}
+#userEdit #locationEditTab .form dd.errorMessage {width: 16px;}
+#userEdit #locationEditTab .form dd input#UserLocationForm_city {width: 400px;}
+#userEdit #locationEditTab .form dd select {width: 410px;}
+
+    /*badgets*/
+#userEdit #badgetsEditTab .row.badgets {width: 220px; padding-left: 132px;}    
+#userEdit #badgetsEditTab dt, 
+#userEdit #badgetsEditTab dd,
+#userEdit #badgetsEditTab label {width: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

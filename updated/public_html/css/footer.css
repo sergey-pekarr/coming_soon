@@ -1,0 +1,94 @@
+
+
+#footer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #B3B3B3;
+    clear: both;
+    color: #666666;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 960px;
+}
+
+#global_footer {
+    padding: 15px 0;
+}
+
+#global_footer_nav {
+    padding-bottom: 5px;
+}
+
+#global_footer_nav, #global_footer_copyr, #global_footer_testi, #global_footer_supportb, #global_footer p {
+    float: none !important;
+    font-size: 11px !important;
+    line-height: 14px !important;
+    text-align: center;
+}
+
+#global_footer_nav, #global_footer_copyr, #global_footer_testi, #global_footer_supportb, #global_footer p {
+    float: none !important;
+    font-size: 11px !important;
+    line-height: 14px !important;
+    text-align: center;
+}
+
+
+
+
+#global_footer_nav a {
+    /*border-right: 1px solid #666666;*/
+    padding: 0 8px;
+}
+
+#footer a:link, #footer a:visited, #footer a:hover {
+    color: #EF0472;
+}
+
+#global_footer_nav a:link, #global_footer_nav a:visited, #global_footer_copyr, #global_footer_testi {
+    color: #EF0472;
+    font-size: 11px !important;
+    font-weight: normal;
+    text-decoration: none !important;
+}
+
+
+
+#global_footer_nav, #global_footer_copyr, #global_footer_testi, #global_footer_supportb, #global_footer p {
+    float: none !important;
+    font-size: 11px !important;
+    line-height: 14px !important;
+    text-align: center;
+}
+
+
+#global_footer_copyr {
+    padding: 5px 0 7px;
+}
+#global_footer_nav a:link, #global_footer_nav a:visited, #global_footer_copyr, #global_footer_testi {
+    color: #EF0472;
+    font-size: 12px !important;
+    font-weight: normal;
+    text-decoration: none !important;
+	font: normal 22px 'ProximaNovaLtRegular', Arial, Helvetica, sans-serif;    
+}
+#global_footer_nav, #global_footer_copyr, #global_footer_testi, #global_footer_supportb, #global_footer p {
+    float: none !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-align: center;
+}
+#global_footer_nav, #global_footer_copyr, #global_footer_testi, #global_footer_supportb, #global_footer p {
+    float: none !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-align: center;
+}
+#global_footer_copyr {color: #fff; font: normal 12px 'ProximaNovaLtRegular', Arial, Helvetica, sans-serif;}
+
+#global_footer_nav span {font-size: 9px !important; color:#fff}
+
+
+
+#global_footer p.zombaio {color:#fff}

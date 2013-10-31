@@ -1,0 +1,1 @@
+<?php $this->widget('application.components.PanelProfileViewedWidget', array('all'=>true)); ?>

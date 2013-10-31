@@ -1,0 +1,986 @@
+
+/*Temporary add here*/
+.qq-uploader
+{
+    position: relative;
+    width: 100%;
+}
+
+.qq-upload-button
+{
+    display: block; /* or inline-block */
+    width: 105px;
+    padding: 7px 0;
+    text-align: center;
+    background: #880000;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+}
+.qq-upload-button-hover
+{
+    background: #cc0000;
+}
+.qq-upload-button-focus
+{
+    outline: 1px dotted black;
+}
+
+.qq-upload-drop-area
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 70px;
+    z-index: 2;
+    background: #FF9797;
+    text-align: center;
+}
+.qq-upload-drop-area span
+{
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -8px;
+    font-size: 16px;
+}
+.qq-upload-drop-area-active
+{
+    background: #FF7171;
+}
+
+.qq-upload-list
+{
+    margin: 15px 35px;
+    padding: 0;
+    list-style: disc;
+}
+.qq-upload-list li
+{
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+    font-size: 12px;
+}
+.qq-upload-file, .qq-upload-spinner, .qq-upload-size, .qq-upload-cancel, .qq-upload-failed-text
+{
+    margin-right: 7px;
+}
+
+.qq-upload-file
+{
+}
+.qq-upload-spinner
+{
+    display: inline-block;
+    background: url("/images/img/loading.gif");
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
+}
+.qq-upload-size, .qq-upload-cancel
+{
+    font-size: 11px;
+}
+
+.qq-upload-failed-text
+{
+    display: none;
+}
+.qq-upload-fail .qq-upload-failed-text
+{
+    display: inline;
+}
+
+/*End of upload*/
+
+
+
+
+
+
+
+
+
+#content_profile_data
+{
+    width: 495px;
+}
+
+#content_profile_data input, #content_profile_data textarea
+{
+    margin-bottom: 9px;
+}
+
+#profile-left .content_button_Wink
+{
+    width: auto;
+}
+#profile-left .content_button_Gift
+{
+    width: auto;
+}
+.content_button_EmailSent
+{
+    background: url("/images/img/control.green-button.png") no-repeat -0px -240px;
+    width: 180px;
+    color: #fff !important;
+}
+.content_button_EmailSent span
+{
+    background: url("/images/img/control.green-button.png") no-repeat -275px -240px;
+}
+#profile-left .content_button_Save, #content_profile_data .content_button_Save
+{
+    width: auto;
+    float: right;
+    margin-right: 25px;
+}
+
+#message-send label
+{
+    padding-right: 10px;
+    display: inline;
+}
+#message-send .content_button_right
+{
+    margin-top: 10px;
+}
+#message-send #subject
+{
+    padding: 4px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 340px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+#message-send #message_parent
+{
+    margin: 10px 0px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#message-send #message_tbl
+{
+    width: 100%;
+    margin-top: 15px;
+}
+#message-send #message
+{
+    margin: 15px 0px 0px;
+    height: 80px;
+    width: 458px;
+}
+
+#content_profile_images
+{
+    padding: 10px 0px 10px 10px;
+    border: 1px solid rgb(211, 211, 211);
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: rgb(242, 242, 242);
+}
+#content_profile_images img.selected
+{
+    border: 2px solid rgb(31, 129, 181);
+    width: 28px;
+    height: 28px;
+}
+#content_profile_images a.small:hover img
+{
+    border: 2px solid rgb(31, 129, 181);
+    width: 28px;
+    height: 28px;
+}
+#content_profile_images a
+{
+    margin: 5px 10px 0px 0px;
+    float: left;
+    display: block;
+}
+#content_profile_images p a
+{
+    clear: left;
+}
+#content_profile_images img.big
+{
+    border: 0px currentColor !important;
+    width: 200px !important;
+}
+
+
+#profile-more-form hr, #content_profile_data hr
+{
+    margin-top: 4px;
+    margin-bottom: 6px;
+    border-top-color: #b3b3b3;
+}
+#profile-more-form textarea
+{
+    margin-bottom: 4px;
+    min-height: 50px;
+    overflow-y: scroll;
+}
+
+/*My Profile*/
+.content_tabs
+{
+    margin-top: 20px;
+}
+#profile-quicksummary
+{
+    padding: 0px 10px;
+}
+#profile-quicksummary p
+{
+    margin: 5px 0px;
+}
+#content_profile_data
+{
+    width: 495px;
+    font-size: 12px;
+    float: right;
+}
+#content_profile_data table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+#content_profile_data td
+{
+    padding: 4px 0px;
+}
+#content_profile_data td.desc
+{
+    width: 180px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+#content_profile_data td.descedit
+{
+    width: 180px;
+    color: rgb(51, 51, 51);
+    padding-right: 10px;
+    font-weight: bold;
+}
+#content_profile_data textarea, #content_profile_data input[type='text']
+{
+    width: 100%;
+}
+#content_profile_data textarea
+{
+    overflow-y: scroll;
+}
+
+/*Message Error and Ok*/
+#saveAlert
+{
+    margin-top: 10px;
+}
+.message_ok, .message_warn
+{
+    border: 1px solid rgb(78, 171, 218);
+    color: rgb(59, 128, 163);
+    margin-bottom: 20px;
+}
+.message_err
+{
+    border-color: rgb(218, 78, 78);
+    color: rgb(163, 59, 59);
+    margin-bottom: 20px;
+}
+.message_ok .message_wrap, .message_warn .message_wrap
+{
+    padding: 11px 8px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    background-color: rgb(236, 245, 250);
+}
+.message_err .message_wrap
+{
+    padding: 11px 8px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    background-color: rgb(253, 225, 225);
+}
+.message_ok .message_wrap span, .message_warn .message_wrap span
+{
+    background: url("/images/img/control.png") no-repeat -93px -21px;
+    top: 11px;
+    width: 11px;
+    height: 11px;
+    right: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+.message_err .message_wrap span
+{
+    background: url("/images/img/control.png") no-repeat -93px -3px;
+    top: 11px;
+    width: 11px;
+    height: 11px;
+    right: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+.message_warn .message_wrap a
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*Image Viewer*/
+#imgviewer
+{
+    position: relative;
+}
+#imgviewer .imgback
+{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 30px;
+}
+#imgviewer .imgnext
+{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 43px;
+    width: 30px;
+}
+#imgviewer .imglike
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    background-color: #000;
+    color: White;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    line-height: 16px;
+    height: 16px;
+    padding: 2px 0px 2px 2px;
+}
+#imgviewer .imglike a
+{
+    background-position: -110px -55px;
+    display: block;
+    float: left;
+    width: 16px;
+    background-image: url('/images/img/control.png');
+    background-repeat: no-repeat;
+}
+#imgviewer:hover .imgback, #imgviewer:hover .imgnext
+{
+    display: block;
+    cursor: pointer;
+}
+
+
+/*BuildProfile*/
+.profile_field_def
+{
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #000000;
+}
+.profile_field_def .field_left
+{
+    float: left;
+    width: 180px;
+}
+.profile_field_def .field_right
+{
+    float: left;
+    width: 250px;
+}
+.profile_field_def .field_right > div, .profile_field_def .field_right > div > div
+{
+    display: block;
+}
+.profile_field_def a:visited, .profile_field_def a:link
+{
+    font-weight: bold;
+}
+.profile_field_collapse .field_left a
+{
+    background: url(/images/img/toggle-open.png) no-repeat 0px 3px;
+    padding-left: 15px;
+}
+.profile_field_expand .field_left a
+{
+    background: url(/images/img/toggle-close.png) no-repeat 0px 3px;
+    padding-left: 15px;
+}
+.profile_field_collapse .field_right div.field_right_summary
+{
+    display: block;
+}
+.profile_field_collapse .field_right div.field_right_control
+{
+    display: none;
+}
+.profile_field_expand .field_right div.field_right_summary
+{
+    display: none;
+}
+.profile_field_expand .field_right div.field_right_control
+{
+    display: block;
+}
+
+.sendgift_icons
+{
+    padding: 0px 0px 10px 10px;
+}
+.sendgift_icons p
+{
+    line-height: 22px;
+    font-size: 13px;
+}
+.sendgift_icons p span
+{
+    line-height: 22px;
+    font-size: 13px;
+}
+.sendgift_icons p strong
+{
+    line-height: 22px;
+    font-size: 13px;
+}
+.sendgift_icons p span
+{
+    color: red;
+    font-weight: bold;
+}
+.sendgift_icons p
+{
+    padding: 5px 30px 0px 0px;
+    color: rgb(51, 51, 51);
+}
+.sendgift_icons .gifticon
+{
+    background: url("/images/img/gifts/icons.png") no-repeat;
+    margin: 12px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    display: block;
+}
+.sendgift_icons .gifticon_heart
+{
+    background-position: 4px -4px;
+}
+.sendgift_icons .gifticon_present
+{
+    background-position: -90px 0px;
+}
+.sendgift_icons .gifticon_chocheart
+{
+    background-position: -183px 0px;
+}
+.sendgift_icons .gifticon_rose
+{
+    background-position: -269px 0px;
+}
+.sendgift_icons .gifticon_champagne
+{
+    background-position: -355px 0px;
+}
+.sendgift_icons .gifticon_knickers
+{
+    background-position: 2px -103px;
+}
+.sendgift_icons .gifticon_kiss
+{
+    background-position: -91px -100px;
+}
+.sendgift_icons .gifticon_cake
+{
+    background-position: -184px -96px;
+}
+.sendgift_icons .gifticon_candycane
+{
+    background-position: -274px -97px;
+}
+.sendgift_icons .gifticon_pumpkin
+{
+    background-position: -362px -98px;
+}
+.sendgift_icons .gifticon:hover
+{
+    background-color: rgb(235, 235, 235) !important;
+}
+.sendgift_icons .gifticon_selected
+{
+    background-color: rgb(235, 235, 235) !important;
+}
+.send-gift-button
+{
+    background: url("/images/img/gifts/send.png") no-repeat 0px -35px;
+    width: 110px;
+    height: 36px;
+}
+.send-gift-button-active
+{
+    background-position: 0px 0px;
+}
+#gifts_received
+{
+    border-width: 0px 1px 1px;
+    border-style: none solid solid;
+    border-color: currentColor rgb(204, 204, 204) rgb(204, 204, 204);
+    padding: 0px !important;
+    border-radius: 4px;
+    margin-top: 15px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+#gifts_received .content_bar
+{
+    margin: 0px;
+    height: 29px !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+#gifts_received .gifticon
+{
+    margin: 5px;
+}
+#gifts_received .gifticon:hover
+{
+    background-color: transparent !important;
+}
+.sendgift_icons p.text-pt1, .sendgift_icons p.text-pt2, .sendgift_icons p.text-needtopay
+{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+.sendgift_icons p.text-needtopay a
+{
+    font-size: 13px;
+    color: black;
+}
+#send-flirt-hdr
+{
+    background: url('/images/img/gifts/pop-hdr.png');
+    height: 53px;
+}
+
+
+/*Prestige*/
+.award-header
+{
+    position: relative;
+    background-image: url(/images/img/levelup/pop.hdr.jpg);
+    height: 145px;
+    padding: 8px 30px 0px 45px;
+}
+.award-header .arrow-position
+{
+    position: absolute;
+    bottom: 0px;
+    height: 19px;
+    width: 39px;
+    background-image: url(/images/img/levelup/arrow-cur.png);
+}
+.award-icon
+{
+    float: left;
+    width: 86px;
+    height: 71px;
+    margin-top: 33px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-image: url(/images/img/levelup/icons.small.png);
+}
+
+.award-header-1 .arrow-position
+{
+    left: 95px;
+}
+.award-header-1 .award-icon-1, .award-status.award-icon-1
+{
+    background-image: url(/images/img/levelup/icons.png);
+    background-position: 0px -375px;
+    width: 140px;
+    height: 120px;
+    margin: 0px;
+}
+.award-header-1 .award-icon-2
+{
+    background-position: -86px -365px;
+}
+.award-header-1 .award-icon-3, .award-header-2 .award-icon-3
+{
+    background-position: -172px -365px;
+}
+.award-header-1 .award-icon-4, .award-header-2 .award-icon-4, .award-header-3 .award-icon-4
+{
+    background-position: -258px -365px;
+}
+.award-header-1 .award-icon-5, .award-header-2 .award-icon-5, .award-header-3 .award-icon-5, .award-header-4 .award-icon-5
+{
+    background-position: -344px -365px;
+}
+
+
+.award-header-2 .arrow-position
+{
+    left: 211px;
+}
+.award-header-2 .award-icon-1, .award-header-3 .award-icon-1, .award-header-4 .award-icon-1, .award-header-5 .award-icon-1
+{
+    background-position: 0px 0px;
+}
+.award-header-2 .award-icon-2, .award-status.award-icon-2
+{
+    background-image: url(/images/img/levelup/icons.png);
+    background-position: -140px -375px;
+    width: 140px;
+    height: 120px;
+    margin: 0px;
+}
+
+.award-header-3 .arrow-position
+{
+    left: 327px;
+}
+.award-header-3 .award-icon-2, .award-header-4 .award-icon-2, .award-header-5 .award-icon-2
+{
+    background-position: -86px 0px;
+}
+.award-header-3 .award-icon-3, .award-status.award-icon-3
+{
+    background-image: url(/images/img/levelup/icons.png);
+    background-position: -280px -375px;
+    width: 140px;
+    height: 120px;
+    margin: 0px;
+}
+
+
+.award-header-4 .arrow-position
+{
+    left: 443px;
+}
+
+.award-header-4 .award-icon-3, .award-header-5 .award-icon-3
+{
+    background-position: -172px 0px;
+}
+.award-header-4 .award-icon-4, .award-status.award-icon-4
+{
+    background-image: url(/images/img/levelup/icons.png);
+    background-position: -420px -375px;
+    width: 140px;
+    height: 120px;
+    margin: 0px;
+}
+
+.award-header-5 .arrow-position
+{
+    left: 559px;
+}
+
+.award-header-5 .award-icon-4
+{
+    background-position: -258px 0px;
+}
+.award-header-5 .award-icon-5, .award-status.award-icon-5
+{
+    background-image: url(/images/img/levelup/icons.png);
+    background-position: -560px -375px;
+    width: 140px;
+    height: 120px;
+    margin: 0px;
+}
+
+#award-current.award-header
+{
+    background-image: none;
+    padding-left:20px;
+    cursor:pointer;
+}
+#award-current.award-header .award-icon
+{
+    width: 86px;
+    height: 71px;
+    margin-top: 33px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-image: url(/images/img/levelup/icons.small.png);
+}
+
+#award-current.award-header-1 .award-icon-1
+{
+    background-position: 0px 0px;
+}
+#award-current.award-header-2 .award-icon-2
+{
+    background-position: -86px 0px;
+}
+#award-current.award-header-3 .award-icon-3
+{
+    background-position: -172px 0px;
+}
+#award-current.award-header-4 .award-icon-4
+{
+    background-position: -258px 0px;
+}
+#award-current.award-header-5 .award-icon-5
+{
+    background-position: -344px 0px;
+}
+
+.award-status
+{
+    cursor: pointer;
+}
+
+#award-container .ui-dialog-system a
+{
+    top: -12px;
+    right: -12px;
+}
+
+#award-content
+{
+    padding: 10px 20px 10px 20px;
+}
+#award-content > h2
+{
+    color: #373737;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 1;
+    padding: 5px 0px 10px 0px;
+    height: 36px;
+}
+#award-content > h2 > img
+{
+    vertical-align: middle;
+    margin-top: -3px;
+}
+#award-content > h2 > span
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+#award-progress-content
+{
+    background-image: url(/images/img/levelup/progress.s.png);
+    width: 693px;
+    height: 81px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#award-progress-content #award-progress img
+{
+    background-position: -450px 50%;
+    margin: 0px;
+    padding: 0px;
+    width: 450px;
+    height: 28px;
+    background-image: url("/images/img/levelup/progressbar.png");
+}
+#award-progress
+{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 28px 0px 0px 0px;
+    height: 22px;
+}
+#award-progress span
+{
+    color: White;
+    margin-top: -27px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+#levelup-about
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#levelup-about h3
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #373737;
+}
+#levelup-about p
+{
+    font-size: 12px;
+    color: #6f6e69;
+}
+.award-text-2
+{
+    background-image: url(/images/img/levelup/sprite.text.png);
+    padding-left: 100px;
+    background-position-y: 0px;
+}
+.award-text-3
+{
+    background-image: url(/images/img/levelup/sprite.text.png);
+    padding-left: 85px;
+    background-position-y: -72px;
+}
+#award-content .award-text-4
+{
+    background-image: url(/images/img/levelup/sprite.text.png);
+    padding-left: 75px;
+    background-position-y: -140px;
+}
+#levelup-todo
+{
+    width: 600px;
+    margin: 0px auto 0px auto;
+}
+#levelup-todo .award-text-4
+{
+    background-image: url(/images/img/levelup/sprite.text.png);
+    padding-left: 75px;
+    background-position-y: -145px;
+}
+
+#levelup-todo h3
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #373737;
+}
+#levelup-todo h3 span
+{
+    font-size: 18px;
+}
+
+#levelup-todo ul li
+{
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    clear: both;
+    color: #373737;
+}
+#levelup-todo ul li strong
+{
+    font-size: 14px;
+    font-weight: bold;
+    clear: both;
+    color: #659e3f;
+}
+#levelup-todo ul li span
+{
+    padding-left: 20px;
+}
+#levelup-todo ul li a
+{
+    float: right;
+}
+#levelup-todo table
+{
+    width: 100%;
+}
+#levelup-todo table tr td:first-child
+{
+    width: 25px;
+}
+#levelup-todo table tr td:first-child span
+{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url(/images/img/levelup/sprite.png);
+}
+#levelup-todo .photo_count
+{
+    background: 0px -61px;
+}
+#levelup-todo .msg_sent
+{
+    background-position: -59px -98px;
+}
+#levelup-todo .add_favs
+{
+    background-position: -19px -100px;
+}
+#levelup-todo .like_photos
+{
+    background-position: -38px -119px;
+}
+#levelup-todo .paid
+{
+    background-position: -60px -117px;
+}
+#levelup-todo .word_count
+{
+    background-position: 0px -20px;
+}
+#levelup-todo .email_verify
+{
+    background-position: -40px -100px;
+}
+#levelup-todo .profile
+{
+    background-position: 0px -59px;
+}
+#levelup-todo .wink_sent
+{
+    background-position: -20px -120px;
+}
+
+#levelup-todo table tr td:last-child
+{
+    width: 60px;
+}
+#levelup-todo table tr td
+{
+    font-size: 14px;
+    font-weight: bold;
+    clear: both;
+    color: #373737;
+    border-bottom: solid 1px #cccccc;
+    height: 35px;
+    vertical-align: middle;
+}
+#levelup-todo table tr td strong
+{
+    font-size: 14px;
+    font-weight: bold;
+    clear: both;
+    color: #659e3f;
+}
+#levelup-todo table tr td:last-child a
+{
+    display: block;
+    color: #373737;
+    height: 24px;
+    width: 53px;
+    background-image: url(/images/img/levelup/sprite.png);
+    background-position: -21px 0px;
+}

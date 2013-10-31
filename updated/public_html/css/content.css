@@ -1,0 +1,399 @@
+
+
+/*GUEST*/
+#content.guest {
+    /*background: url("/images/img/pinkmeets/bx.c.png") repeat-y scroll 0 0 transparent;*/
+    background: url('/images/design/banner.jpg') no-repeat top center;
+    margin: 14px auto 0 auto; /*margin: -34px auto -100px auto;*/
+    min-height: 430px;
+    width: 990px;
+    z-index: 1;
+    
+    color: #fff;
+}
+.guest-left {
+   background: url("/images/design/trans1.png") repeat scroll 0 0 transparent;
+    float: left;
+    margin-top: 280px;
+    padding: 20px 30px;
+    /*width: 440px;*/
+    
+}
+.guest-left {
+	/*background-color: #000;
+    height: 105px;
+    margin-top: 268px;
+    text-align: left;
+    
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+	-moz-opacity: 0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+	zoom: 1; */  
+	float:left;
+	width:456px;
+	background:url("/images/design/trans1.png");
+	padding:20px 30px;
+	margin-top:280px;
+}
+.guest-left h1{
+	font: normal 38px 'ProximaNovaLtRegular', Arial, Helvetica, sans-serif;
+	margin:0 0 0 16px;
+	padding:0;
+	color:#FFF;
+}
+.guest-left h2 {
+	font: normal 18px 'ProximaNovaLtSemibold', Arial, Helvetica, sans-serif;
+	margin:0 0 0 16px;	
+	padding:0;
+	color: #ef0472;	
+	font-size: 18px !important;
+}
+
+
+.guest-right {
+	float: left;
+	background: url('/images/design/trans1.png') repeat scroll 0 0 transparent;
+
+	
+	width: 411px;
+	
+    /*margin: -2px 0 0 0;*/
+    /*height: 423px;*/
+    overflow: hidden;
+    
+    position: relative;
+    top: 0;
+    
+    
+	width:400px;
+/*	height:350px;*/
+	margin:20px 0 20px 0;
+	padding:20px 30px 20px 10px;
+	/*background: url(../images/trans1.png);*/
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;        	
+}
+.guest-right.step2 {
+	/*background: none;
+	background-color: #eee;
+	
+	border: #516a9e solid 4px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    
+    height: auto;
+    overflow: visible;*/
+} 
+
+
+.guest-right-box {
+    width: 404px;
+    height: 100%;
+    /*background: url('/images/design/regFormBgNoBorder.png') no-repeat;*/
+}
+
+.guest-right .guest-right-box {
+    /*background: none repeat scroll 0 0 #AA2850;*/
+	
+}
+/*.guest-right-box h1 {
+	text-transform: uppercase;
+	color: #36437e;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding: 16px 0;
+}*/
+#reg-forms-box {
+	/*padding-top: 90px;*/
+}
+#reg-forms-box h1 {
+    font: 34px 'ProximaNovaLtRegular',Arial,Helvetica,sans-serif;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
+.guest-right.step2 #reg-forms-box {
+	padding-top: 0;
+}
+
+
+.guest-right .guest-right-box #ribbon2  {
+    background: url("/images/img/pinkmeets/s.png") no-repeat scroll -371px 0 transparent;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 115px;
+    z-index: 9999;
+}
+.guest-right .guest-right-box .signup-header .get-laid.clean {
+    background: url("/images/img/pinkmeets/s.png?u=2") repeat scroll -414px -216px transparent;
+    height: 25px;
+    margin: 5px 0 8px 5px;
+    width: 240px;
+}
+.guest-right .guest-right-box .signup-header p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 5px;
+    text-align: left;
+    
+    margin-bottom: 10px
+}
+
+.guest-right h3.find-buddy.clean, 
+h3.find-buddy.clean {
+    background: url("/images/img/pinkmeets/s.png?u=2") repeat scroll -248px -280px transparent;
+    display: block;
+    height: 31px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 340px;
+}
+.guest-right h4 {
+    color: black;
+    font-size: 24px;
+    padding: 5px 0 15px 0;
+    text-align: center;
+}
+
+
+/*.visitorsOnlineCounterBox {text-align: center; margin: 20px 0 40px 0}
+.visitorsOnlineCounterBox p {text-align: center; font-size: 13px; color: #000; font-weight: bold;}*/
+.visitorsOnlineCounterBox{
+	width:900px;
+	margin:20px auto;
+	border-top:4px solid #ef0472;
+	background:#2f2f2f url('/images/design/profile_back.png') repeat-x;
+	padding:20px 30px;
+	}
+.visitorsOnlineCounterBox .left{
+	width:250px;
+	float:left;
+	padding: 10px 0 0 6px;
+	}
+.visitorsOnlineCounterBox .left p {text-align:center; font: normal 13px 'ProximaNovaLtRegular', Arial, Helvetica, sans-serif; color: #fff}	
+.visitorsOnlineCounterBox .right{
+	float:right;
+	width:620px;
+	}
+.visitorsOnlineCounterBox ul{
+	margin:10px 0 0 0;
+	padding:0;
+	}
+.visitorsOnlineCounterBox ul li{
+	list-style:none;
+	display:inline;
+	margin:0 6px 0 7px;
+	}
+.visitorsOnlineCounterBox h1{
+	font: normal 22px 'ProximaNovaLtRegular', Arial, Helvetica, sans-serif;
+	margin:10px 0 0 0;
+	text-align:center;
+	color:#ddd;
+	}
+.visitorsOnlineCounterBox h1 a {font: normal 22px 'ProximaNovaLtRegular', Arial, Helvetica, sans-serif; text-decoration: underline;}
+.visitorsOnlineCounterBox ul li a img {width: 82px; height: 82px; border: #98999b 2px solid}/*width="106" height="111"*/
+
+
+
+
+
+
+
+
+
+
+.regBox2.bgRadBox {
+	width:410px;  
+	margin: 20px auto 0 auto; 
+	text-align: center;
+	background-color: #eee;
+	background-image: none;
+}
+.regBox2.bgRadBox h1 {font-size: 24px; padding: 20px 0 }
+
+
+
+
+
+
+
+
+
+/*FREE USER*/
+.verify-banner {
+    height: 48px;
+    padding-top: 11px;
+    text-align: center;
+}
+.verify-banner.regular {
+    background: url("/images/img/banners/regular-bg.png") repeat-x scroll 0 0 transparent;
+}
+.verify-banner p, .verify-banner p a {
+    color: #000000;
+    font: bold 16px Arial,sans-serif;
+}
+.verify-banner p a {text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+/*DASHBORD HOME PANELs*/
+.dashboard-home-center {
+	width: 525px; 
+	float: left;
+	overflow: hidded;
+}
+.dashboard-home-right {
+	width: 206px; 
+	float: right;
+	overflow: hidded;
+}
+.dashboard-home-right .dashboard-home-right-box {margin-bottom: 16px}
+
+
+#DashboardFeaturedBox,
+#DashboardLatestVerified,
+#DashboardPopular {margin-bottom: 20px;}
+
+#DashboardFeaturedBox h1,
+#DashboardLatestVerified h1,
+#DashboardPopular h1 {
+	float: left;
+	text-shadow: 1px 1px 0 #2D426E;
+	background: url("/images/img/pinkmeets/body_vertical.png") repeat-x 0 -42px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    font-size: 11px;
+    height: 21px;
+    margin: 7px 0 -10px;
+    padding: 6px 15px 3px 10px;
+    text-transform: uppercase;
+    width: 191px;
+    font-weight: normal;
+    
+	font-family: "Segoe UI","Soho Gothic W01 Light","Arial","Helvetica",sans-serif;
+    font-weight: normal;
+    line-height: 18px;    
+}
+
+.profiles-find-more {
+color: #333333 !important;
+    display: block;
+    float: right;
+    font-family: 'Lucida Sans Unicode','Lucida Grande',Garuda,sans-serif;
+    font-size: 11px;
+    height: 25px;
+    line-height: 24px !important;
+    font-weight: bold;
+    margin: 0 31px 0 10px;
+    position: relative;
+    top: 10px;
+    text-shadow: 1px 1px #FFFFFF;
+
+	background: url("/images/img/control.png") no-repeat scroll 0 -313px transparent;    
+	background-position: 0 -240px;
+    padding: 1px 5px 0 10px;    
+}
+.profiles-find-more span {
+	display: block;
+    height: 26px;
+    position: absolute;
+    top: 0;
+
+	background: url("/images/img/control.png") no-repeat scroll -201px -313px transparent;    
+	background-position: -275px -240px;
+    padding-left: 3px;
+    right: -26px;
+    width: 23px;    
+}
+.profiles-find-more span img {
+	margin-left: 0;
+    margin-right: 4px;
+}
+
+
+
+
+/*PROFILE BOX*/
+.profileBox {
+background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #DDDAD2;
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    margin: 15px 11px 0 0;
+    padding: 5px;
+    text-shadow: 1px 1px #FFFFFF;
+    width: 110px;
+    height: 120px;
+}
+.profileBox.last {margin-right: 0}
+.profileBox .icons {float: right;
+    margin-top: -6px;
+    padding-right: 3px;
+    width: 16px;
+}
+.profileBox .profile-info {width: 110px; overflow: hidden; white-space:nowrap;}
+.profileBox .profile-info a {font-weight: bold}
+
+
+	/*ONLINE NOW ALL*/
+#OnlineNowBox {min-height: 600px;}
+#OnlineNowBox .panel-list {min-height: 550px;}
+#OnlineNowBox .profileBox {
+	margin-right: 12px;
+	margin-left: 12px;
+}
+
+#OnlineNowBox ul.pagination {margin-left: 200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #bx-content p, #bx-content div, #bx-content a, #bx-content b, #bx-content h3, #bx-content li, #bx-content pre
+    {
+        font-size: 13px !important;
+        line-height:normal;
+    }
+    #bx-content li
+    {
+        list-style-type:decimal;
+        list-style-position:outside;
+    }
+    #bx-content ol
+    {
+        padding-left:40px;
+    }
+    #bx-content
+    {
+        padding: 0 10px 100px 10px;
+    }
+    #bx-content .tandc {background-color: #fff; padding-top: 0}
+    #bx-content .tandc div:FIRST-CHILD {margin: 0 auto 30px auto; padding-top: 30px; max-width: 800px; width: auto }
+    

@@ -1,0 +1,65 @@
+2013/10/31 07:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ms.lo/site/login".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('ms.lo/site/logi...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/ms.lo/site/login
+2013/10/31 07:16:01 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+2013/10/31 07:16:05 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+2013/10/31 07:16:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /home/jenezis/sites/ms.lo/framework/db/CDbConnection.php:370
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /home/jenezis/sites/ms.lo/framework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /home/jenezis/sites/ms.lo/framework/base/CModule.php(372): CDbConnection->init()
+#3 /home/jenezis/sites/ms.lo/public_html/protected/components/DbHttpSession.php(150): CModule->getComponent('db')
+#4 /home/jenezis/sites/ms.lo/public_html/protected/components/DbHttpSession.php(174): DbHttpSession->getDbConnection()
+#5 [internal function]: DbHttpSession->openSession('/var/lib/php5', 'PHPSESSID_DEV')
+#6 /home/jenezis/sites/ms.lo/framework/web/CHttpSession.php(100): session_start()
+#7 /home/jenezis/sites/ms.lo/framework/web/CHttpSession.php(75): CHttpSession->open()
+#8 /home/jenezis/sites/ms.lo/framework/base/CModule.php(372): CHttpSession->init()
+#9 /home/jenezis/sites/ms.lo/framework/base/CModule.php(86): CModule->getComponent('session')
+#10 /home/jenezis/sites/ms.lo/public_html/protected/components/Controller.php(43): CModule->__get('session')
+#11 /home/jenezis/sites/ms.lo/public_html/protected/controllers/DashboardController.php(22): Controller->init()
+#12 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(276): DashboardController->init()
+#13 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('dashboard/index')
+#14 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#16 {main} REQUEST_URI=/
+2013/10/31 07:17:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "old/site/registration".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('old/site/regist...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/old/site/registration
+2013/10/31 07:22:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "old/site/registration".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('old/site/regist...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/old/site/registration
+2013/10/31 07:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "old/site/registration".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('old/site/regist...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/old/site/registration
+2013/10/31 07:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "old/site/registration".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('old/site/regist...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/old/site/registration
+2013/10/31 07:24:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "old/site/registration".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('old/site/regist...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/old/site/registration
+2013/10/31 07:33:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "old".' in /home/jenezis/sites/ms.lo/framework/web/CController.php:477
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CController.php(262): CController->missingAction('old')
+#1 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(277): CController->run('old')
+#2 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('site/old/regist...')
+#3 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#5 {main} REQUEST_URI=/site/old/registration
