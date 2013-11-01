@@ -8,6 +8,7 @@ class HomeController extends Controller
 	 */
 	public function actionIndex()
 	{
+            
 /*		if ( Yii::app()->controller->module->adminAuthManager->checkAccess('administrator', Yii::app()->controller->module->admin->id) )
 		{
 			$this->redirect('/admin/index');
@@ -17,7 +18,7 @@ class HomeController extends Controller
 			$this->redirect('/admin/users/find');
 */		
         //$this->render('index');
-        
+        //echo '<pre>'; var_dump(Yii::app()->controller->module->admin->role); echo '</pre>'; die('qwertr1');
 		$model = new SummaryForm;
         $model->attributes = (isset($_REQUEST['SummaryForm'])) ? $_REQUEST['SummaryForm'] : '';        
         if ($model->validate())

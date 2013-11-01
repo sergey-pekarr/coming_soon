@@ -1,183 +1,236 @@
 <?php
-$compressJs  = (LOCAL) ? false : true;
+$compressJs = (LOCAL) ? false : true;
 $compressCss = (LOCAL) ? false : true;
 
-$combineJs  = (LOCAL) ? false : true;
+$combineJs = (LOCAL) ? false : true;
 $combineCss = (LOCAL) ? false : true;
 
 $app = Yii::app();
 ?>
 <!DOCTYPE html>
 <html lang="en" xml:lang="en" xmlns:fb="http://ogp.me/ns/fb#" >
-<head>
-    <meta charset="utf-8" />
-	<meta name="language" content="en" />
-    
-    
-    <?php 
-    CHelperAssets::jsUrl('site', $compressJs, $combineJs); ?>
-    
-    <link rel="shortcut icon" href="/favicon.ico" />
-
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
-
-    <?php CHelperAssets::cssUrl('site', $compressCss, $combineCss); ?>
-    <link href="/fonts/fonts.css" rel="stylesheet" type="text/css" />
-    
-    <?php $this->widget('application.components.userprofile.ScreenResolutionUpdateWidget'); ?>
-   
-    <?php $this->widget('application.components.metric.GoogleAnalyticsWidget'); ?>
-    
-    <?php 
-	    if ( Yii::app()->browser->isIE10() ) {
-			CHelperAssets::jsUrl('ie10', $compressJs, $combineJs);
-		}       
-    ?>
-    
-</head>
-<body>
-
-<?php if ( Yii::app()->user->role == 'free' ) { //if ( Yii::app()->user->checkAccess('free') && !Yii::app()->user->checkAccess('gold')) { ?>
-	<div class="verify-banner regular ">
-		<p> Don't forget... Upgrade NOW and SAVE an instant 50% on your Premium membership...</p>
-		<p><a href="/payment" title="Unlock"> CLICK HERE</a> to meet thousands of like-minded singles near <?php echo Yii::app()->user->location('city') ?>!</p>
-	</div>    	
-<?php } ?>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="language" content="en" />
 
 
-<?php 
-    //justjoined or free user
-    if ( !Yii::app()->user->checkAccess('free') ) { ?>
-    
-		<div class="topbar">
-	    	<div class="wrap">
-	        	<div class="box1">
-	            	<div class="callbox"><a href="/site/page/contact">24/7 Live toll free customer service</a></div>
-	            </div>
-	            <div class="box2">
-	            	<?php /*
-	            	<div class="login1"><a href="#"><img src="images/login1.jpg" width="111" height="27" /></a></div>
-	                <div class="login2"><a href="#"><img src="images/login2.jpg" width="102" height="27" /></a></div>
-	                */ ?>
-	                
-		                    <div class="login1">
-		                        <a href="javascript:void(0)" onclick="javascript:loginFormShow();">
-		                        	<img src="/images/design/login1.jpg" width="111" height="27" />
-		                        </a>
-							</div>
-								
-							<div class="login2">
-								<a href="/?service=facebook" class="fblogin">
-									<img src="/images/design/login2.jpg" width="102" height="27" />
-								</a>
-							</div>
-		                	
-		    				<?php $this->widget('application.components.UserLoginFormWidget'); ?>	                
-	                
-	                
-	                <div class="clearfix"></div>
-	            </div>
-	            <div class="clearfix"></div>
-	        </div>
-	    </div>    
-    
-	    <div class="header">
-	    	<div class="wrap">
-	        	<div class="logo"><a href="/"><img src="/images/design/linkmeets_logo.png" width="253" height="69" /></a></div>
-	            <div class="menu">
-	            	<ul>
-	                	<li><a href="/">Home</a></li>
-	                    <li><a href="/site/registration">Member's Online</a></li>
-	                    <li><a href="/site/registration">Search</a></li>
-	                    <li><a href="/site/registration">Live Chat</a></li>
-	                    <li><a href="/user/remindPassword">Forgot Password</a></li>
-	                </ul>
-	            </div>
-	        </div>
-	    </div>    
+        <?php CHelperAssets::jsUrl('site', $compressJs, $combineJs); ?>
 
-		
-    <?php } else { 
-		
-		?>
-    	<div id="header">
-			<div id="header_center">
-				
-				<a id="header_logo" href="/"></a>
+        <link rel="shortcut icon" href="/favicon.ico" />
 
-				<ul>
-				<li>
-					<a href="/">
-						HOME
-						<span> </span>
-					</a>
-				</li>
-				<li>
-					<a id="header-inbox" href="/msg/inbox">
-						INBOX
-						<span></span>
-						<div class="tabnew"> </div>
-					</a>
-				</li>
-				<li>
-					<a id="header-online" href="/profiles/online">
-						MEMBERS ONLINE
-						<span></span>
-					</a>
-				</li>
-				<li>
-					<a id="header-search" href="/search">
-						SEARCH
-						<span></span>
-					</a>
-				</li>
-				<li>
-					<a href="/profile">
-						MY PROFILE
-						<span></span>
-					</a>
-				</li>
-				<li>
-					<a href="/account">
-						MY ACCOUNT
-						<span></span>
-					</a>
-				</li>
-				<li>
-					<a onclick="" href="/site/logout">
-						LOGOUT
-						<span></span>
-					</a>
-				</li>
-				</ul>
+        <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
-				
-			</div>
+        <?php CHelperAssets::cssUrl('site', $compressCss, $combineCss); ?>
+        <link href="/fonts/fonts.css" rel="stylesheet" type="text/css" />
 
-    	</div>
-	<?php } ?>
-            
-	</div>
-	<div class="clear"></div>
+        <?php $this->widget('application.components.userprofile.ScreenResolutionUpdateWidget'); ?>
 
-	<noscript>
-		<div class="alert-message error bold center">
-	    	Javascript is disabled on your browser. Please enable JavaScript or upgrade to a Javascript-capable browser to use the site.
-		</div>
-	</noscript>
-               
-	
-	
-	<?php echo $content; ?>
-	
+        <?php $this->widget('application.components.metric.GoogleAnalyticsWidget'); ?>
 
-<?php include_once dirname(__FILE__).'/_footer.php'; ?>
+        <?php
+        if (Yii::app()->browser->isIE10()) {
+            CHelperAssets::jsUrl('ie10', $compressJs, $combineJs);
+        }
+        ?>
 
-<?php $this->widget('application.components.common.ClientInfoUpdateWidget'); ?>
+    </head>
+    <body>
 
-<?php $this->widget('application.components.panamus.FingerprintWidget'); ?>
+        <?php if (Yii::app()->user->role == 'free') { //if ( Yii::app()->user->checkAccess('free') && !Yii::app()->user->checkAccess('gold')) {  ?>
+            <div class="verify-banner regular ">
+                <p> Don't forget... Upgrade NOW and SAVE an instant 50% on your Premium membership...</p>
+                <p><a href="/payment" title="Unlock"> CLICK HERE</a> to meet thousands of like-minded singles near <?php echo Yii::app()->user->location('city') ?>!</p>
+            </div>    	
+        <?php } ?>
 
-</body>
+
+        <div class = "header">
+            <div class = "topbar">
+                <div class = "fill">
+                    <div class = "container">
+                        <h3>
+                            <a id = "logoMain" href = "/" title = "<?php echo SITE_NAME_FULL ?>" rel = "popover">
+                                <img src = "/images/design/logo.png" alt = "<?php echo SITE_NAME_FULL ?>" />
+                            </a>
+                            <?php /* <span class="socailVideo">social tube</span> */
+                            ?>
+                        </h3>
+
+                        <?php
+                        if (!Yii::app()->user->checkAccess('limited')) {//if ( Yii::app()->user->isGuest ) {
+                            if (DEMO) {
+                                die('demo content');
+                                $this->widget('zii.widgets.CMenu', array(
+                                    'htmlOptions' => array('class' => 'nav secondary-nav'),
+                                    'items' => array(
+                                        array(
+                                            'label' => 'Sign in',
+                                            'url' => 'javascript:void(0)',
+                                            'linkOptions' => array(
+                                                'onclick' => 'javascript:signin()',
+                                            ),
+                                        //<a href="#" data-controls-modal="reg_login_form" data-backdrop="static" >Sign in</a>
+                                        ),
+                                        array(
+                                            'label' => 'About',
+                                            'url' => array('/site/index'),
+                                            'active' => false,
+                                        ),
+                                        /* array(
+                                          'label'=>'Contact Us',
+                                          'url'=>array('/site/index'),
+                                          'active'=>false ,
+                                          ), */
+                                        array(
+                                            'label' => 'Help',
+                                            'url' => array('/site/index'),
+                                            'active' => false,
+                                        ),
+                                    ),
+                                ));
+                            } else {
+                                
+                                $this->widget('zii.widgets.CMenu', array(
+                                    'htmlOptions' => array('class' => 'nav secondary-nav'),
+                                    'items' => array(
+
+                                        array(
+                                            'label' => 'Sign in',
+                                            'url' => 'javascript:void(0)',
+                                            'visible' => Yii::app()->user->isGuest,
+                                            'linkOptions' => array(
+                                                'onclick' => 'javascript:signin()',
+                                            ),
+                                            'active' => (Yii::app()->request->requestUri == '/site/signin') ? true : false,
+
+                                        ),
+
+                                        array(
+                                            'label' => 'About',
+                                            'url' => array('/site/about'),
+                                            'active' => (Yii::app()->request->requestUri == '/site/about') ? true : false,
+                                        ),
+
+                                        array(
+                                            'label' => 'Help',
+                                            'url' => array('/help'),
+                                            'active' => (Yii::app()->request->requestUri == '/help') ? true : false,
+                                        ),
+                                        array(
+                                            'label' => 'Sign Out',
+                                            'url' => array('site/logout'),
+                                            'visible' => !Yii::app()->user->isGuest,
+                                        ),
+                                    ),
+                                ));
+                            }
+                        } else {
+
+                            if (Yii::app()->user->checkAccess('limited') && Yii::app()->user->settings('hided_new_message') == '0') {
+                                $modelMessage = new Messages;
+                                $messages = $modelMessage->getPrivateMessagesTo(Yii::app()->user->id);
+                                $messagesNewCount = $messages['newCount'];
+                            }
+                            else
+                                $messagesNewCount = 0;
+
+                            $this->widget('zii.widgets.CMenu', array(
+                                'htmlOptions' => array('class' => 'nav secondary-nav'),
+                                'items' => array(
+                                    array(//new message
+                                        'label' => '#',
+                                        'url' => array('/messages/index'),
+                                        'visible' => ($messagesNewCount ? true : false),
+                                    //'active'=>false,
+                                    ),
+                                    array(
+                                        'label' => 'Dashboard',
+                                        'url' => array('/site/index'),
+                                        'linkOptions' => array('class' => 'dropdown-toggle no_arrow'),
+                                        'itemOptions' => array('class' => 'dropdown', 'data-dropdown' => 'dropdown'),
+                                        'submenuOptions' => array('class' => 'dropdown-menu'),
+                                        'active' => ( (Yii::app()->controller->id == 'site') || (Yii::app()->controller->id == 'dashboard') /* || (Yii::app()->controller->id=='messages') */ ) ? true : false,
+                                        'items' => array(
+                                            array(
+                                                'label' => 'Inbox',
+                                                'url' => array('/dashboard/inbox'),
+                                                'active' => ( Yii::app()->controller->action->id == 'inbox' || Yii::app()->controller->action->id == 'inboxAll' ) ? true : false,
+                                            ),
+                                            array('label' => 'Sent', 'url' => array('/dashboard/sent')),
+                                            array('label' => 'Hotlist', 'url' => array('/dashboard/hotlist')),
+                                        //array('label'=>'Matches', 'url'=>array('/dashboard/matches')),
+                                        )
+                                    ),
+                                    array(
+                                        'label' => 'My Profile',
+                                        'url' => array('/profile/myVideos'),
+                                        'linkOptions' => array('class' => 'dropdown-toggle'),
+                                        'itemOptions' => array('class' => 'dropdown', 'data-dropdown' => 'dropdown'),
+                                        'submenuOptions' => array('class' => 'dropdown-menu'),
+                                        'active' => (
+                                        (Yii::app()->controller->id == 'profile' && !isset($_GET['id'])) ||
+                                        (Yii::app()->controller->id == 'profile' && Yii::app()->secur->decryptID($_GET['id']) == $app->user->id)
+                                        ) ? true : false,
+                                        'items' => array(
+                                            array('label' => 'View Profile', 'url' => array('/profile/' . $app->secur->encryptID($app->user->id)), 'active' => (Yii::app()->secur->decryptID($_GET['id']) == $app->user->id) ? true : false),
+                                            array('label' => 'My Video', 'url' => array('/profile/myVideos')),
+                                            array('label' => 'Edit Profile', 'url' => array('/profile/edit')),
+                                            array('label' => 'Account Settings', 'url' => array('/profile/accountSettings')),
+                                        )
+                                    ),
+                                    array(
+                                        'label' => 'Browse',
+                                        'url' => array('/search'),
+                                        'active' => (Yii::app()->request->requestUri == '/search') ? true : false,
+                                    ),
+                                    /* array(
+                                      'label'=>'FAQ',
+                                      'url'=>array('/site/index'),
+                                      'active'=>false ,
+                                      ), */
+                                    array(
+                                        'label' => 'Help',
+                                        'url' => array('/help'),
+                                        'active' => (Yii::app()->request->requestUri == '/help') ? true : false,
+                                    ),
+                                    array(
+                                        'label' => 'Sign Out',
+                                        'url' => array('site/logout')
+                                    ),
+                                ),
+                            ));
+                        }
+                        ?>
+
+                    </div><!-- /container -->
+                </div> <!-- /fill -->
+            </div><!-- /topbar -->    
+        </div>    
+
+
+
+
+
+        <div class="clear"></div>
+
+        <noscript>
+        <div class="alert-message error bold center">
+            Javascript is disabled on your browser. Please enable JavaScript or upgrade to a Javascript-capable browser to use the site.
+        </div>
+        </noscript>
+
+
+
+        <?php echo $content; ?>
+
+
+
+
+        <?php $this->widget('application.components.common.ClientInfoUpdateWidget'); ?>
+
+        <?php $this->widget('application.components.panamus.FingerprintWidget'); ?>
+
+    </body>
 </html>
 
 
