@@ -9,6 +9,10 @@
 
     .login-button{
         display: inline-block;   
+        font-size: 22px;
+        background-color: #000;
+        color: #fff;
+        height: 35px;
     }
 </style>
 
@@ -68,7 +72,7 @@
             <label>Remember</label>
         </dd>
         <dd>
-            <button class="btn login-button" data-loading-text="wait..." onclick="javascript:formSubmit('reg_login_form');" >Sign In</button>
+            <input type="button" class="login-button" data-loading-text="wait..." onclick="javascript:formSubmit('reg_login_form');" value="Sign In">
         </dd>
         <div class="clear"></div>        
     </dl>

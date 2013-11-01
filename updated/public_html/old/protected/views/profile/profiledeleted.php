@@ -1,1 +1,0 @@
-<h2 style="text-align:center; margin:20px; font-size:16px; line-height:18px;">Profile was deleted</h2>

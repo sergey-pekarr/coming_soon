@@ -1,1 +1,0 @@
-<?php $this->widget('application.components.UserRegistrationStep2FormWidget'); ?>

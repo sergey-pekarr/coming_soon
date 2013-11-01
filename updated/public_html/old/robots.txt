@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /assets
-Disallow: /cache
-Disallow: /images
-Disallow: /site/page/contact

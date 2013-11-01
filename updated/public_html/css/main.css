@@ -42,10 +42,12 @@ body
 {
     line-height: 18px;
 }
-body
-{
-    background: none repeat scroll 0 0 transparent;
-    min-width: 960px;
+body{
+    /*background-color: #000;*/
+    background-image: url("../images/design/fon.png");
+    background-repeat: repeat;
+    /*margin:0;*/
+
 }
 body, html
 {
@@ -53,25 +55,28 @@ body, html
 }
 
 
+.user_profile{
+    width:30%; 
+}
+
+ul.profiles li {
+    height: 200px;
+    float: left;
+    font-size: 12px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    width: 33%;
+}
 
 
-
-
-body{
-	background:#000;
-	margin:0;
-	/*color: #000;*/
-	}
 a {
-	color: #EF0472;
+    color: #EF0472;
 }
 img{
-	border:0;
-	}
-
-
-
-body .container {background-color: #fff; padding: 0 10px}
+    border:0;
+}
 
 
 
@@ -83,7 +88,7 @@ h3
     color: #333333;
     font-size: 11px;
     font-weight: bold;
-    margin: 15px 0;
+    margin: 0;
 }
 
 li
@@ -306,94 +311,97 @@ div.flash-success a
 
 /*HEADER*/
 .topbar{
-	width:100%;
-	height:40px;
-	margin-top:5px;
-	}
+    width:100%;
+    height:40px;
+    border-top-style: solid;
+    border-top-color: #f7305b;
+    border-top-width: 5px;
+
+}
 .wrap{
-	width:960px;
-	margin:0 auto;
-	}
+    width:960px;
+    margin:0 auto;
+}
 .box1{
-	float:left;
-	width:670px;
-	}
+    float:left;
+    width:670px;
+}
 .box1 .callbox{
-	float:right;
-	background:url('/images/design/login1_back.jpg') repeat-x;
-	padding:7px;
-	margin-top:5px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
-	-ms-border-radius: 5px;
-	}
+    float:right;
+    background:url('/images/design/login1_back.jpg') repeat-x;
+    padding:7px;
+    margin-top:5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
 .box1 .callbox a{
-	color:#999;
-	text-decoration:none;
-	text-transform:uppercase;
-	font: normal 12px 'ProximaNovaRgRegular', Arial, Helvetica, sans-serif;
-	padding:10px;
-	}
+    color:#999;
+    text-decoration:none;
+    text-transform:uppercase;
+    font: normal 12px 'ProximaNovaRgRegular', Arial, Helvetica, sans-serif;
+    padding:10px;
+}
 .box2{
-	float:right;
-	width:340px;
-	background:url('/images/design/topbar_back.jpg') no-repeat;
-	width:265px;
-	height:30px;
-	padding:5px 9px;
-	}
+    float:right;
+    width:340px;
+    background:url('/images/design/topbar_back.jpg') no-repeat;
+    width:265px;
+    height:30px;
+    padding:5px 9px;
+}
 .box2 .login1{
-	float:left;
-	margin:2px 2px 5px 10px;
-	}
+    float:left;
+    margin:2px 2px 5px 10px;
+}
 .box2 .login2{
-	float:left;
-	margin:2px 5px 5px 8px;
-	}
+    float:left;
+    margin:2px 5px 5px 8px;
+}
 .clearfix{
-	clear:both;
-	}
+    clear:both;
+}
 .header{
-	background:url('/images/design/header_back.jpg') repeat-x;
-	height:69px;
-	}
+    background-color: #181818;
+    height:69px;
+}
 .logo{
-	float:left;
-	}
+    float:left;
+}
 .menu{
-	float:right;
-	width:650px;
-	}
+    float:right;
+    width:650px;
+}
 .menu{
-	margin:10px 0px 0px 0px;
-	padding:0;
-	}
+    margin:10px 0px 0px 0px;
+    padding:0;
+}
 .menu ul {margin: 20px 0; padding-left: 40px}
 .menu ul li{
-	list-style:none;
-	display:inline;
-	background:url('/images/design/menu_divider.jpg') no-repeat center right;
-	padding:10px 10px;
-	
-	}
+    list-style:none;
+    display:inline;
+    background:url('/images/design/menu_divider.jpg') no-repeat center right;
+    padding:10px 10px;
+
+}
 .menu ul li a{
-	color:#FFF;
-	text-decoration:none;
-	font: normal 15px 'ProximaNovaRgRegular', Arial, Helvetica, sans-serif;
-	text-transform:uppercase;
-	}
+    color:#FFF;
+    text-decoration:none;
+    font: normal 15px 'ProximaNovaRgRegular', Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+}
 .menu ul li a:hover{
-	text-decoration:underline;
-	}
+    text-decoration:underline;
+}
 
 
 #header
 {
     /*background: url("/images/img/pinkmeets/body_vertical.png") repeat-x scroll center -18px #7EC9F2;*/
     background:url('/images/design/header_back.jpg') repeat-x scroll center;
-    
+
     border-bottom: 1px solid #CCCCCC;
     height: 52px;
     padding-top: 2px;
@@ -412,11 +420,11 @@ div.flash-success a
     width: 990px;
 }
 #header.header-guest .live247 {
-	float: right;
-	margin-top: 6px;
+        float: right;
+        margin-top: 6px;
 }
 #header.header-guest .live247 a {
-	color: #eee;
+        color: #eee;
     font-size: 13px;
     font-weight: bold;
     line-height: 13px;
@@ -1692,7 +1700,9 @@ a.fb_button_medium:active
 {
     height: 161px;
 }
-
+.users{
+    width:510px;
+}
 #profile-left h3
 {
     margin-top:15px;
@@ -1828,7 +1838,7 @@ a.fb_button_medium:active
 {
     /*width: 980px;
 margin: 10px auto 0px auto;*/
-/*padding: 10px 10px 10px 10px;*/
+    /*padding: 10px 10px 10px 10px;*/
 }
 #conditionpanel
 {
@@ -2380,19 +2390,158 @@ form#login-form dl dd.errorMessage {
 
 
 .dataTable {
-border-left: 1px solid #c0c0c0;
-border-top: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    border-top: 1px solid #c0c0c0;
 }
 .dataTable td {
-border-right: 1px solid #c0c0c0;
-border-bottom: 1px solid #c0c0c0;
-padding: 5px;
-text-align: left;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 5px;
+    text-align: left;
 }
 .dataTable th {
-background-color:#999;
-padding: 5px;
-text-align:left;
-color:white;
-font-weight:bold;
+    background-color:#999;
+    padding: 5px;
+    text-align:left;
+    color:white;
+    font-weight:bold;
+}
+
+.container:before, .container:after {
+    content: "";
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+.container:before, .container:after {
+    content: "";
+    display: table;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    /*background-color: #181818; padding: 0 10px;*/
+    vertical-align: middle; 
+}
+
+
+.topbar h3 {
+    position: relative;
+}
+h3 {
+    font-size: 18px;
+}
+h3, h4, h5, h6 {
+    line-height: 36px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #404040;
+    font-weight: bold;
+}
+
+
+.topbar h3 a, .topbar .brand {
+    padding: 0;
+    position: absolute;
+    padding-top:15px;
+}
+.topbar h3 a, .topbar .brand {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1;
+    margin-left: -20px;
+    padding: 0px 20px 12px;
+}
+.topbar a {
+    color: #BFBFBF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.topbar div > ul, .nav {
+    display: block;
+    float: right;
+    left: 0;
+    margin: 15px 10px 0 0;
+    position: relative;
+}
+
+dl, dt, dd, ul, form {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: disc outside none;
+}
+ul, ol {
+    margin: 0 0 18px 25px;
+}
+ol, ul {
+    list-style: none outside none;
+}
+
+.topbar .fill ul li {
+    height: 40px;
+    margin-left: 4px;
+    padding-top: 8px;
+}
+.topbar div > ul > li, .nav > li {
+    display: block;
+    float: left;
+}
+.topbar div > ul > li, .nav > li {
+    display: block;
+    float: left;
+}
+li {
+    list-style: none outside none;
+}
+li {
+    color: #808080;
+    line-height: 18px;
+}
+
+.topbar .fill ul li a {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2px 6px;
+    text-shadow: 2px 2px 2px #000000;
+    font-size:20px;
+}
+.topbar .fill ul li a:hover{
+    background-color:#f6315c;
+    /*text-shadow:1px 1px 1px #fff;*/
+}
+
+.topbar div > ul a, .nav a {
+    display: block;
+    float: none;
+    line-height: 19px;
+    padding: 10px 10px 11px;
+    text-decoration: none;
+}
+.topbar div > ul a, .nav a {
+    display: block;
+    float: none;
+    line-height: 19px;
+    padding: 10px 10px 11px;
+    text-decoration: none;
+}
+.topbar a {
+    color: #BFBFBF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+a {
+    color: #215ACE;
+    text-decoration: none;
+}
+a {
+    color: #0069D6;
+    font-weight: inherit;
+    line-height: inherit;
+    text-decoration: none;
 }

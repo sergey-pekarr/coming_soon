@@ -61,10 +61,10 @@ $app = Yii::app();
                             if (DEMO) {
                                 die('demo content');
                                 $this->widget('zii.widgets.CMenu', array(
-                                    'htmlOptions' => array('class' => 'nav secondary-nav'),
+                                    'htmlOptions' => array('class' => 'nav nav-pills secondary-nav'),
                                     'items' => array(
                                         array(
-                                            'label' => 'Sign in',
+                                            'label' => 'SIGN IN',
                                             'url' => 'javascript:void(0)',
                                             'linkOptions' => array(
                                                 'onclick' => 'javascript:signin()',
@@ -72,7 +72,7 @@ $app = Yii::app();
                                         //<a href="#" data-controls-modal="reg_login_form" data-backdrop="static" >Sign in</a>
                                         ),
                                         array(
-                                            'label' => 'About',
+                                            'label' => 'ABOUT',
                                             'url' => array('/site/index'),
                                             'active' => false,
                                         ),
@@ -82,7 +82,7 @@ $app = Yii::app();
                                           'active'=>false ,
                                           ), */
                                         array(
-                                            'label' => 'Help',
+                                            'label' => 'HELP',
                                             'url' => array('/site/index'),
                                             'active' => false,
                                         ),
@@ -91,11 +91,11 @@ $app = Yii::app();
                             } else {
                                 
                                 $this->widget('zii.widgets.CMenu', array(
-                                    'htmlOptions' => array('class' => 'nav secondary-nav'),
+                                    'htmlOptions' => array('class' => 'nav nav-pills secondary-nav'),
                                     'items' => array(
 
                                         array(
-                                            'label' => 'Sign in',
+                                            'label' => 'SIGN IN',
                                             'url' => 'javascript:void(0)',
                                             'visible' => Yii::app()->user->isGuest,
                                             'linkOptions' => array(
@@ -106,18 +106,18 @@ $app = Yii::app();
                                         ),
 
                                         array(
-                                            'label' => 'About',
+                                            'label' => 'ABOUT',
                                             'url' => array('/site/about'),
                                             'active' => (Yii::app()->request->requestUri == '/site/about') ? true : false,
                                         ),
 
                                         array(
-                                            'label' => 'Help',
+                                            'label' => 'HELP',
                                             'url' => array('/help'),
                                             'active' => (Yii::app()->request->requestUri == '/help') ? true : false,
                                         ),
                                         array(
-                                            'label' => 'Sign Out',
+                                            'label' => 'SIGN OUT',
                                             'url' => array('site/logout'),
                                             'visible' => !Yii::app()->user->isGuest,
                                         ),

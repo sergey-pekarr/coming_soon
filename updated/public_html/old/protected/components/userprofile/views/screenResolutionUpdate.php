@@ -1,7 +1,0 @@
-<script>
-<!--
-	srnupd = true;
-//-->
-</script>
-
-

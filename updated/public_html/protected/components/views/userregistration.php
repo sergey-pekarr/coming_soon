@@ -14,36 +14,38 @@
                 'validationUrl'=>Yii::app()->createUrl('/UserRegistration/step1Validation'),
                 'validateOnSubmit' => true,
                 'validateOnChange' => true,
-                'afterValidate' => "js: function(form, data, hasError) {
-                                                    //if no error in validation, send form data with Ajax
+                'afterValidate' => "
+                js: 
+                    function(form, data, hasError) {
+                        //if no error in validation, send form data with Ajax
 
-                                                    
-                                                    if ( typeof(data['UserRegistrationForm_ip'])!='undefined')
-                                                    {
-                                                    	window.location.href='/site/login';
-                                                    	return false;
-                                                    }
-                                                    		                                                     
-                                                    
-                                                    
-                                                    if (! hasError) {
-                                                      $.ajax({
-                                                        type: 'POST',
-                                                        url: form[0].action,
-                                                        data: $(form).serialize(),
-                                                        success: function(ret) {
-                                                        	regStep2FormBoxLoad();//window.location.reload();//window.location.href='/site/registrationStep2';
-                                                        }
-                                                      });                                                        
-                                                    }
-                                                    else
-                                                    {
-                                                    	$('#signup-area .btn').button('reset');
-                                                    	$('input.submit').removeAttr('disabled');
-                                                    }
-                                                       
-                                                    return false;
-                }"                
+                        
+                        if ( typeof(data['UserRegistrationForm_ip'])!='undefined')
+                        {
+                        	window.location.href='/site/login';
+                        	return false;
+                        }
+                        		                                                     
+                        
+                        
+                        if (! hasError) {
+                          $.ajax({
+                            type: 'POST',
+                            url: form[0].action,
+                            data: $(form).serialize(),
+                            success: function(ret) {
+                            	regStep2FormBoxLoad();//window.location.reload();//window.location.href='/site/registrationStep2';
+                            }
+                          });                                                        
+                        }
+                        else
+                        {
+                        	$('#signup-area .btn').button('reset');
+                        	$('input.submit').removeAttr('disabled');
+                        }
+                           
+                        return false;
+                    }"
                 
             ),
     )); 
@@ -185,8 +187,17 @@
     onclick="javascript:formSubmit('signup-area');"    
 >Continue</button>
 <?php */ ?>
+<style type="text/css">
+    input.submit-button{
+        font-size: 25px;
+        color: #fff;
+        background-color: #000;
+        height: 35px;
+        width: 150px;
+    }
+</style>
 <div class="center">
-	<input type="button" class="submit" onclick="javascript: $(this).attr('disabled', 'disabled'); formSubmit('signup-area');" />
+	<input type="button" class="submit-button" onclick="javascript: $(this).attr('disabled', 'disabled'); formSubmit('signup-area');" value="Continue" />
 </div>
 
 <script>

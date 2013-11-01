@@ -18,10 +18,61 @@
         font-size: 16px;
         font-weight: bold;
     }
+
+    div.username{
+        text-align: center;
+        width: 150px;
+        font-size: 16px;
+    }
+
+    #reg-forms-box{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #f5f5f5;
+        border-top: solid #b3b3b3 1px;
+        border-left: solid #b3b3b3 1px;
+        border-right: solid #b3b3b3 2px;
+        border-bottom: solid #b3b3b3 2px;
+    }
+
+    div.facebook-login-area{
+        text-align: center;
+    }
+
+    .word_devider {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        margin: 5px 0;
+        position: relative;
+        z-index: 2;
+        text-transform: uppercase;
+    }
+    
+    .line_center {
+        font-size: small;
+        color: #D1CFCD;
+        margin: 0;
+        padding: 0 10px;
+        background: #f5f5f5;
+        display: inline-block;
+    }
+
+     .word_devider:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        border-top: solid 1px #D1CFCD;
+        z-index: -1;
+    }
+
+
 </style>
-<div class="container"></div>
-<div class="row-fluid">
-    <div class="span6">
+<!-- <div class="container"></div> -->
+<div class="row-fluid"><br>
+    <div class="span7">
         <div class="inline">
             <h3>Welcome back, Roy</h3>
             <span><a href="#">Not Roy?</a></span><br>
@@ -35,38 +86,16 @@
         </span>
     </div>    
 </div>
-<hr>
-<div class="container">
+<br><hr><br><br>
+<!-- <div class="container"> -->
     <div class="row-fluid">
-        <div class="span6">
-            <h3>Members near your place (<?php echo $city; ?>)</h3>
-            <div class="users">
-                <ul class="profiles front">
-                    <?php if(!empty($users)) : ?>
-                        <?php foreach ($users as $user) : ?>
-                            <?php
-                                if (empty($user->images[0]->n)) {                    
-                                    $male = ($user->gender === 'M') ? 'male' : 'female';    
-                                    $img = '/../../images/nophoto_' . $male . '_big.png';
-                                } else {
-                                    $img = $user->id . '/' . $user->images[0]->n[0] . '_big.jpg';
-                                }
-                            ?>
-                            <li>
-                                <div class='user_profile'>
-                                    <img src="<?php echo $img; ?>" />
-                                    <span class="username"><?php echo $user->username; ?></span>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-                        <?php endforeach; ?>
-                    <?php endif; ?>
-                </ul>
-            </div>
+        <!-- USERS NEAR YOUR PLACE WIDGET -->
+        <div class="span7">
+            <?php $this->widget('application.components.UsersNearYourPlace', array('users'=>$users, 'city'=>$city)); ?>
         </div>
+
         <!-- REGISTRATION FORM -->
-        <div class="span6">
-            <div id="reg-forms-box">    
+        <div id="reg-forms-box" class="span5">
                 <?php 
                 if ( Yii::app()->user->isGuest ) { ?>
                     <h1>Sign up here to get started</h1>
@@ -75,8 +104,12 @@
                     $this->widget('application.components.UserRegistrationStep2FormWidget');
                 } ?>
 
-                <?php $this->widget('application.components.facebook.FacebookLoginWidget'); ?>
-            </div>
+                <p class="word_devider"><span class="line_center">OR</span></p>
+
+                <div class="facebook-login-area">
+                    <?php $this->widget('application.components.facebook.FacebookLoginWidget'); ?>
+                    <h3>Recommended</h3>
+                </div>
         </div>
     </div>
-</div>
+<!-- </div> -->
