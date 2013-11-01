@@ -34,13 +34,13 @@
                             url: form[0].action,
                             data: $(form).serialize(),
                             success: function(ret) {
-                                $('#reg_login_form .btn').addClass('success');
+                                $('#reg_login_form .login-button').addClass('success');
                                     eval(ret);//window.location.href=ret;//window.location.reload();
                             }
                           }); 
                         }
                         else
-                           $('#reg_login_form .btn').button('reset');
+                           $('#reg_login_form .login-button').button('reset');
                         return false;
                     }"
                 ),
@@ -72,7 +72,7 @@
             <label>Remember</label>
         </dd>
         <dd>
-            <input type="button" class="login-button" data-loading-text="wait..." onclick="javascript:formSubmit('reg_login_form');" value="Sign In">
+            <button class="login-button" data-loading-text="wait..." onclick="javascript:formSubmit('reg_login_form');" >Sign In</button>
         </dd>
         <div class="clear"></div>        
     </dl>
