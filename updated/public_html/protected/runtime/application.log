@@ -1916,3 +1916,157 @@ Stack trace:
 #10 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #11 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
 #12 {main} REQUEST_URI=/site/about
+2013/11/04 13:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "design".' in /var/www/ms.lo/meetsi.com/framework/web/CController.php:477
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CController.php(262): CController->missingAction('design')
+#1 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(277): CController->run('design')
+#2 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('img/design/glyp...')
+#3 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#5 {main} REQUEST_URI=/img/design/glyphicons-halflings-white.png
+2013/11/04 13:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "design".' in /var/www/ms.lo/meetsi.com/framework/web/CController.php:477
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CController.php(262): CController->missingAction('design')
+#1 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(277): CController->run('design')
+#2 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('img/design/glyp...')
+#3 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#5 {main} REQUEST_URI=/img/design/glyphicons-halflings-white.png
+2013/11/04 14:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:37:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:37:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:38:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:44:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:44:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 14:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgimg.jpg".' in /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/ms.lo/meetsi.com/framework/web/CWebApplication.php(136): CWebApplication->runController('images/bgimg.jp...')
+#1 /var/www/ms.lo/meetsi.com/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/ms.lo/meetsi.com/public_html/old/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/bgimg.jpg
+2013/11/04 09:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/04 09:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/logo.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/logo.png
+2013/11/04 09:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/my_search.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/my_searc...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/images/my_search.png
+2013/11/04 09:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/nophoto_male_big.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/nophoto_...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/images/nophoto_male_big.png
+2013/11/04 09:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/my_search.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/my_searc...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/images/my_search.png
+2013/11/04 09:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/logo.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/logo.png
+2013/11/04 09:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/nophoto_male_big.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/nophoto_...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/images/nophoto_male_big.png
+2013/11/04 09:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/04 09:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/04 09:32:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/jenezis/sites/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png

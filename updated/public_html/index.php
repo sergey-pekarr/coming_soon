@@ -22,7 +22,7 @@ $start_time = $start_array[1] + $start_array[0];// ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿
 define('TIME_START', $start_time);
 
 // change the following paths if necessary
-$yii=dirname(__FILE__).'/../../framework/yii.php';
+$yii=dirname(__FILE__).'/../framework/yii.php';
 
 include_once dirname(__FILE__).'/protected/config/defines.php';
 

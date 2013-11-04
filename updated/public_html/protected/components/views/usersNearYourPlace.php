@@ -14,8 +14,10 @@
                     $encid = Yii::app()->secur->encryptID($user->id);
                 ?>
                 <li>
-                    <div class="user_profile">
+                    <div class="user_profile">                        
                         <a href="profile/<?php echo $encid; ?>">
+                            <div class="effect"><img src="/../../images/my_search.png"></div>
+                            
                             <img src="<?php echo $img; ?>" />
                         </a>
                         <a href="profile/<?php echo $encid; ?>">
