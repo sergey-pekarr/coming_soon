@@ -51,8 +51,9 @@
 		<?php echo $form->error($model,'username'); ?>
         <div class="clear"></div>
 	</div>
-	
-	<div class="row birthday" >
+
+<?php /*
+    <div class="row birthday" >
 		<dt><?php echo $form->labelEx($model,'birthday'); ?></dt>
         
         <dd>
@@ -66,7 +67,8 @@
         </dd>
         <?php echo $form->error($model,'birthday'); ?>
         <div class="clear"></div>
-	</div>	
+	</div>
+*/ ?>
 	
 <?php /*    
     <div class="row">
@@ -180,7 +182,7 @@
     
 	<div class="row zip">
 		<dt><?php echo $form->labelEx($model,'zip'); ?></dt>
-        <dd>	
+        <dd style="position: relative;">
             <?php echo $form->textField(
                             $model,
                             'zip',
@@ -188,7 +190,7 @@
                                 'value'=>$location['zip'],
                             )
             );?>
-            <span id="zipLoading">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <div id="zipLoading"></div>
         </dd>        
 		<?php echo $form->error($model,'zip'); ?>
         <div class="clear"></div>
@@ -234,7 +236,7 @@
 
 <div class="center">
     <?php /* ?><button class="btn success" data-loading-text="wait..." onclick="javascript:formSubmit('reg_step2_form_box');" >Continue >></button><?php */ ?>
-    <input type="button" class="submit" onclick="javascript: $(this).attr('disabled', 'disabled'); formSubmit('reg_step2_form_box');" />
+    <input type="button" class="submit black-button register-final-button" onclick="javascript: $(this).attr('disabled', 'disabled'); formSubmit('reg_step2_form_box');" value="Register" />
     
     <p class="reg2notice">
 		By submitting this form you certify you are 18 years or older, you agree to our

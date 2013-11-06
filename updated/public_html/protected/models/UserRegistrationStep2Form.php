@@ -106,12 +106,12 @@ class UserRegistrationStep2Form extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-			'username'      =>'Choose Display Name',
+			'username'      =>'Name',
 			'birthday'		=>'Your date of birth',
-			'country'       =>"Your country",
-            'location_id'   =>'Your location',
-            'city'          =>'Your Location',
-            'zip'           =>'Your Zip Code',
+			'country'       =>"Country",
+            'location_id'   =>'Location',
+            'city'          =>'City',
+            'zip'           =>'Zip Code',
 		
 			'notifyMe'		=>'Receive emails notifying me when another user contacts me',
 		);

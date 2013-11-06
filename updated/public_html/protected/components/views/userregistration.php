@@ -14,9 +14,7 @@
                 'validationUrl'=>Yii::app()->createUrl('/UserRegistration/step1Validation'),
                 'validateOnSubmit' => true,
                 'validateOnChange' => true,
-                'afterValidate' => "
-                js: 
-                    function(form, data, hasError) {
+                'afterValidate' => "js:function(form, data, hasError) {
                         //if no error in validation, send form data with Ajax
 
                         
@@ -55,23 +53,23 @@
 
 
 
-<?php /*
 	<div class="row birthday" >
 		<dt><?php echo $form->labelEx($model,'birthday'); ?></dt>
         
         <dd>
         <?php echo $form->hiddenField($model,'birthday'); ?>
         
-        <?php 
-            echo $form->dropDownList($model,'birthday[year]', Yii::app()->helperProfile->getYear(true));
+        <?php
+            /*echo $form->dropDownList($model,'birthday[year]', Yii::app()->helperProfile->getYear(true));
             echo $form->dropDownList($model,'birthday[month]', Yii::app()->helperProfile->getMonth(true));
-            echo $form->dropDownList($model,'birthday[day]', Yii::app()->helperProfile->getDays(true)); 
+            echo $form->dropDownList($model,'birthday[day]', Yii::app()->helperProfile->getDays(true));*/
+            echo $form->textField($model, 'birthday');
         ?>
         </dd>
         <?php echo $form->error($model,'birthday'); ?>
         <div class="clear"></div>
 	</div>
-
+<?php /*
     <div class="textInput">
         <dt><?php echo $form->labelEx($model,'firstName'); ?></dt>
         <dd>

@@ -487,9 +487,9 @@ class Profile
         $data['role'] = (isset($data['role'])) ? $data['role'] : 'justjoined';
         $command->bindValue(":role", $data['role'], PDO::PARAM_STR);        
         
-        if (isset($data['birthday']))
+        /*if (isset($data['birthday']))
 			$this->data['birthday'] = date('Y-m-d', strtotime($data['birthday']['year'].'-'.$data['birthday']['month'].'-'.$data['birthday']['day']));
-        else 
+        else */
         	$this->data['birthday'] = '0000-00-00';
         $command->bindValue(":birthday",$this->data['birthday'],PDO::PARAM_STR);
 		

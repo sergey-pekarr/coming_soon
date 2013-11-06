@@ -8,7 +8,7 @@
 class UserRegistrationForm extends CFormModel
 {
 	public $genders;
-    //public $birthday;
+    public $birthday;
     
     //public $firstName;
     //public $lastName;
@@ -75,10 +75,11 @@ class UserRegistrationForm extends CFormModel
             
             
             //array('gender', 'CRangeValidator', 'on'=>array('x','y')),            
-            array('genders', 'in', 'range'=>CHelperProfile::getGenders(true) ),
-            //array('birthday', 'birthdayCheck'),
+            //array('genders', 'in', 'range'=>CHelperProfile::getGenders(true) ),
+            array('birthday', 'date', 'allowEmpty' => false, 'format' => 'yyyy/MM/dd'),
+            array('birthday', 'birthdayPreCheck'),
 
-            array('age1, age2', 'in', 'range'=>CHelperProfile::getAges() ),
+            //array('age1, age2', 'in', 'range'=>CHelperProfile::getAges() ),
             
             ///array('agree', 'boolean'),            
             ///array('agree', 'agreeCheck'),
@@ -90,9 +91,17 @@ class UserRegistrationForm extends CFormModel
 		);
 	}
 
-   
+    public function birthdayPreCheck()
+    {
+        $birthdayFormatted = explode('/', $this->birthday);
+        $this->birthday = array(
+            'year' => $birthdayFormatted[0],
+            'month' => $birthdayFormatted[1],
+            'day' => $birthdayFormatted[2],
+        );
+    }
 
-    /*public function birthdayCheck()
+    public function birthdayCheck()
     {
         if (!$this->birthday['year'] || !$this->birthday['month'] || !$this->birthday['day'] || !Yii::app()->helperProfile->checkBirthday($this->birthday))//if ( !checkdate ( $this->birthday['month'] , $this->birthday['day'] , $this->birthday['year'] ) )
         {
@@ -102,7 +111,7 @@ class UserRegistrationForm extends CFormModel
         {
             $this->addError('birthday', 'You must be at least 18 years old to register at this site.');
         }
-    }*/
+    }
      
     public function emailCheck()
 	{
@@ -138,8 +147,8 @@ class UserRegistrationForm extends CFormModel
 		return array(
             //'firstName'=>'First name',
             //'lastName'=>'Last name',
-            'genders'=>"You're a",
-            //'birthday'=>'Birthday',
+            //'genders'=>"You're a",
+            'birthday'=>'Birthday',
             'email'=>'Email',
             //'email2'=>'Confirm E-mail Address',
             'password'=>'Password',

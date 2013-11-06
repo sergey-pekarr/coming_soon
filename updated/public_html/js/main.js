@@ -163,7 +163,7 @@ function reportClose(elBtn)
 //submit form with bootstrap and some stupid brawsers
 function formSubmit(box)
 {
-    $('#'+box+' .btn').button('loading'); 
+    $('#'+box+' .btn').button('loading');
     $('#'+box+' form').submit();
 }
 

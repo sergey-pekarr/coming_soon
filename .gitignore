@@ -1,0 +1,7 @@
+# Yii-specific
+updated/public_html/assets/
+updated/public_html/protected/runtime/
+
+# IDE-specific
+.idea
+*.iml

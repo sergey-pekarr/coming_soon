@@ -45,7 +45,7 @@ if (!isset($ip))
 {
     $ip=$_SERVER['REMOTE_ADDR'];
 }*/
-if (in_array($ip, array('192.168.15.1')))
+if (in_array($ip, array('192.168.15.1', '10.10.10.144', '127.0.0.1')))
     define('DEBUG_IP', true);
 else
     define('DEBUG_IP', false);

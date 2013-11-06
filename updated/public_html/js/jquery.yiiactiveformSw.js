@@ -106,6 +106,7 @@
 								hasError = $.fn.yiiactiveform.updateInput(attribute, data, $form) || hasError;
 							});
 							$.fn.yiiactiveform.updateSummary($form, data);
+                            console.log(settings);
 							if(settings.afterValidate==undefined || settings.afterValidate($form, data, hasError)) {
 								if(!hasError) {
 									validated = true;

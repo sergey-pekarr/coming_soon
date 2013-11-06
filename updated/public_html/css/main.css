@@ -73,7 +73,7 @@ li {
     list-style:none;
 }
 
-input {
+input, select {
     margin: 0;
 }
 
@@ -92,6 +92,21 @@ iframe {
     float:none;
     clear:both;
     height:0;
+}
+.guest-right {
+    display: none;
+}
+.loadingAjax
+{
+    min-height: 100px;
+    min-width: 100px;
+    background: transparent url(/images/design/loading.gif) center 100px no-repeat;
+}
+.loadingAjax16
+{
+    width: 16px;
+    height: 16px;
+    background: transparent url(/images/design/loading.gif) center 100px no-repeat;
 }
 /* Generic classes - end*/
 

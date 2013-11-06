@@ -22,6 +22,7 @@
         </div>
 
         <!-- REGISTRATION FORM -->
+        <div class="guest-right"><!-- dirty leftovers from previous yii-based cms --></div>
         <div id="reg-forms-box" class="span4 offset1">
                 <?php 
                 if ( Yii::app()->user->isGuest ) { ?>
