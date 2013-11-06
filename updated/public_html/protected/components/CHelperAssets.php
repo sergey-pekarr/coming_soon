@@ -26,19 +26,20 @@ class CHelperAssets
 				
 				$css =  array(
 					"/css/utf8.css",    
-					//"/css/font.css",
+//					"/css/font.css",
 					"/css/ui/jquery-ui.css",
-					//"/css/bubbles.css",
+//					"/css/bubbles.css",
 					"/css/bootstrap/bootstrap.css",
 					"/css/bootstrap/bootstrap-responsive.css",
 					"/css/forms.css",
 					"/css/main.css",
-					"/css/content.css",
-					//"/css/payment.css",
-					//"/css/allin1.css",                
-					"/css/footer.css",           
-					"/css/profile.css",     
-					"/css/sidebar.css",
+//					"/css/content.css",
+//					"/css/payment.css",
+//					"/css/allin1.css",
+//					"/css/footer.css",
+//					"/css/profile.css",
+//					"/css/sidebar.css",
+                    "/css/home-page.css"
 					);                               
 				break;
 

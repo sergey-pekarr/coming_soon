@@ -1,0 +1,1 @@
+<h1 style=""><?php if(isset($error)) echo $error; else echo "Some errors occur, please try again later."; ?></h1>

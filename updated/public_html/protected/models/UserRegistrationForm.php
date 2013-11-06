@@ -140,9 +140,9 @@ class UserRegistrationForm extends CFormModel
             //'lastName'=>'Last name',
             'genders'=>"You're a",
             //'birthday'=>'Birthday',
-            'email'=>'Email Address',
+            'email'=>'Email',
             //'email2'=>'Confirm E-mail Address',
-            'password'=>'Choose password',
+            'password'=>'Password',
             //'password2'=>'Confirm Password',
             
 		);

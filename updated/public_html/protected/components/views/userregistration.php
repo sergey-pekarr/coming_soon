@@ -54,33 +54,8 @@
 <dl>
 
 
-    <div class="row">
-        <dt><?php echo $form->labelEx($model,'genders'); ?></dt>
-        <dd>
-        <?php echo $form->dropDownList(
-                        $model, 
-                        'genders',
-                        $model->genders
-        ); ?>
-        </dd>
-        <?php echo $form->error($model, 'genders'); ?>
-        <div class="clear"></div>
-    </div>    
 
-	<div class="row ages" >
-		<dt><label>Aged Between:</label></dt>
-        
-        <dd>
-        <?php echo $form->dropDownList($model,'age1', CHelperProfile::getAges()); ?>
-        <label>and</label>
-        <?php echo $form->dropDownList($model,'age2', CHelperProfile::getAges()); ?>
-        </dd>
-        <?php echo $form->error($model,'age1'); ?>
-        <?php echo $form->error($model,'age2'); ?>
-        <div class="clear"></div>
-	</div>
-
-<?php /* 
+<?php /*
 	<div class="row birthday" >
 		<dt><?php echo $form->labelEx($model,'birthday'); ?></dt>
         
@@ -187,17 +162,8 @@
     onclick="javascript:formSubmit('signup-area');"    
 >Continue</button>
 <?php */ ?>
-<style type="text/css">
-    input.submit-button{
-        font-size: 25px;
-        color: #fff;
-        background-color: #000;
-        height: 35px;
-        width: 150px;
-    }
-</style>
 <div class="center">
-	<input type="button" class="submit-button" onclick="javascript: $(this).attr('disabled', 'disabled'); formSubmit('signup-area');" value="Continue" />
+	<input type="button" class="black-button submit-button" onclick="javascript: $(this).attr('disabled', 'disabled'); formSubmit('signup-area');" value="Continue" />
 </div>
 
 <script>

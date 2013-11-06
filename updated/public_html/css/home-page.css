@@ -1,0 +1,188 @@
+/* Login block - start */
+h3 {
+  display: inline-block;
+}
+
+.login-form-wrapper {
+    margin-top: 33px;
+}
+
+.login-form-text {
+    color: #404040;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reg_login_form{
+    display: inline-block;
+}
+
+.reg_login_form form dl dd{
+    display: inline-block;
+}
+
+.wrong-user {
+    padding-left: 20px;
+    font-size: 12px;
+    color: #2A7ABF;
+    font-weight: bold;
+}
+
+#LoginForm_username,
+#LoginForm_password {
+    width: 145px;
+    margin-right: 15px;
+}
+
+.remember-me-label {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 11px;
+}
+/* Login block - end */
+
+/* Registration form - start */
+#reg-forms-box {
+    padding: 32px 0;
+    background-color: #F8F8F8;
+    border: 1px solid #b3b3b3;
+    box-shadow: 1px 1px 1px 0px #CCC;
+    border-radius: 8px;
+}
+
+#reg-forms-box #signup-area {
+    border-bottom: 1px solid #B3B3B3;
+    margin-bottom: 20px;
+    padding: 0 30px 30px;
+}
+
+#reg-forms-box .row {
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+#reg-forms-box dt,
+#reg-forms-box dd {
+    display: inline-block;
+}
+
+#reg-forms-box dt {
+    float: left;
+}
+
+#reg-forms-box dd {
+    float: right;
+}
+
+#reg-forms-box h1 {
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#reg-forms-box label {
+    margin-right: 20px;
+}
+
+#reg-forms-box input[type="text"],
+#reg-forms-box input[type="password"] {
+    width: 170px;
+}
+
+#reg-forms-box .submit-button {
+    margin-top: 10px;
+}
+
+#reg-forms-box .word_devider {
+    /* facepalm... devide and rull */
+    color: #6A6A6A;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: -29px 0 25px;
+    text-align: center;
+}
+
+#reg-forms-box .word_devider span {
+    background-color: #F8F8F8;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+#reg-forms-box .facebook-login-area a {
+    float: left;
+    left: 50%;
+    line-height: 0;
+    margin-left: -98px;
+    position: relative;
+}
+
+#reg-forms-box h3 {
+    color: #6a6a6a;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+/* Registration form - end */
+
+
+/* Members near your place - start */
+.users ul li a .username {
+    color: #6a6a6a;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user_profile a {
+    position:relative;
+    display:inline-block;
+    line-height: 0;
+}
+
+.user_profile a img {
+    height:150px;
+    width:220px;
+    border:1px solid #ffffff;
+    box-shadow:1px 1px 1px 0 #808080;
+}
+
+.user_profile .effect,
+.user_profile .effect-label {
+    position:absolute;
+    display:none;
+    top: 0;
+    left: 0;
+}
+
+.user_profile .effect-label {
+    left: 50%;
+    margin: 25% -37px 0;
+}
+
+.user_profile:hover .effect {
+    display:block;
+    width:100%;
+    height:100%;
+    background-color:red;
+    opacity:0.4;
+}
+
+.user_profile:hover .effect-label {
+    display: block;
+    text-align:center;
+    opacity: 1;
+}
+
+.user_profile .effect-label img {
+    border: 0 none;
+    height: 24px;
+    margin-bottom: 10px;
+    width: 24px;
+    box-shadow: 0 0 0;
+}
+
+.user_profile .effect-label p {
+    color: #FFF;
+    text-transform: uppercase;
+}
+/* Members near your place - end */

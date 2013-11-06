@@ -1,21 +1,3 @@
-<style type="text/css">
-    .reg_login_form{
-        display: inline-block;
-    }
-
-    .reg_login_form form dl dd{
-        display: inline-block;
-    }
-
-    .login-button{
-        display: inline-block;   
-        font-size: 22px;
-        background-color: #000;
-        color: #fff;
-        height: 35px;
-    }
-</style>
-
 <div class="reg_login_form">
     <?php 
         
@@ -66,13 +48,13 @@
             ?>
         </dd>
         <dd>
-            <?php echo $form->checkBox($model,'rememberMe'); ?>
+            <?php echo $form->checkBox($model,'rememberMe', array('class' => 'remember-me-checkbox')); ?>
         </dd>
         <dd>
-            <label>Remember</label>
+            <label class="checkbox-label remember-me-label" for="LoginForm[rememberMe]">Remember</label>
         </dd>
         <dd>
-            <button class="login-button" data-loading-text="wait..." onclick="javascript:formSubmit('reg_login_form');" >Sign In</button>
+            <button class="login-button black-button" data-loading-text="wait..." onclick="javascript:formSubmit('reg_login_form');" >Sign In</button>
         </dd>
         <div class="clear"></div>        
     </dl>

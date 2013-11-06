@@ -1,0 +1,254 @@
+2013/10/31 03:57:06 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+2013/10/31 03:57:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /home/jenezis/sites/ms.lo/framework/db/CDbConnection.php:370
+Stack trace:
+#0 /home/jenezis/sites/ms.lo/framework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /home/jenezis/sites/ms.lo/framework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /home/jenezis/sites/ms.lo/framework/base/CModule.php(372): CDbConnection->init()
+#3 /home/jenezis/sites/ms.lo/public_html/protected/components/DbHttpSession.php(150): CModule->getComponent('db')
+#4 /home/jenezis/sites/ms.lo/public_html/protected/components/DbHttpSession.php(174): DbHttpSession->getDbConnection()
+#5 [internal function]: DbHttpSession->openSession('/var/lib/php5', 'PHPSESSID_DEV')
+#6 /home/jenezis/sites/ms.lo/framework/web/CHttpSession.php(100): session_start()
+#7 /home/jenezis/sites/ms.lo/framework/web/CHttpSession.php(75): CHttpSession->open()
+#8 /home/jenezis/sites/ms.lo/framework/base/CModule.php(372): CHttpSession->init()
+#9 /home/jenezis/sites/ms.lo/framework/base/CModule.php(86): CModule->getComponent('session')
+#10 /home/jenezis/sites/ms.lo/public_html/protected/components/Controller.php(43): CModule->__get('session')
+#11 /home/jenezis/sites/ms.lo/public_html/protected/controllers/DashboardController.php(22): Controller->init()
+#12 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(276): DashboardController->init()
+#13 /home/jenezis/sites/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('dashboard/index')
+#14 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /home/jenezis/sites/ms.lo/public_html/index.php(79): CApplication->run()
+#16 {main} REQUEST_URI=/
+2013/11/05 03:35:30 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+2013/11/05 03:35:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /home/sergey_pekar/projects/ms.lo/framework/db/CDbConnection.php:370
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /home/sergey_pekar/projects/ms.lo/framework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /home/sergey_pekar/projects/ms.lo/framework/base/CModule.php(372): CDbConnection->init()
+#3 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/components/DbHttpSession.php(150): CModule->getComponent('db')
+#4 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/components/DbHttpSession.php(174): DbHttpSession->getDbConnection()
+#5 [internal function]: DbHttpSession->openSession('/var/lib/php5', 'PHPSESSID_DEV')
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CHttpSession.php(100): session_start()
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CHttpSession.php(75): CHttpSession->open()
+#8 /home/sergey_pekar/projects/ms.lo/framework/base/CModule.php(372): CHttpSession->init()
+#9 /home/sergey_pekar/projects/ms.lo/framework/base/CModule.php(86): CModule->getComponent('session')
+#10 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/components/Controller.php(43): CModule->__get('session')
+#11 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/controllers/DashboardController.php(22): Controller->init()
+#12 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(276): DashboardController->init()
+#13 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('dashboard/index')
+#14 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#16 {main} REQUEST_URI=/
+2013/11/05 03:35:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/fon.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/f...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/fon.png
+2013/11/05 03:35:31 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+2013/11/05 03:35:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "old/favicon.ico".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('old/favicon.ico')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/old/favicon.ico
+2013/11/05 03:35:31 [error] [exception.CDbException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+2013/11/05 03:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/fon.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/f...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/fon.png
+2013/11/05 03:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "old/favicon.ico".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('old/favicon.ico')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/old/favicon.ico
+2013/11/05 03:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/fon.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/f...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/fon.png
+2013/11/05 03:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "old/favicon.ico".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('old/favicon.ico')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/old/favicon.ico
+2013/11/05 03:58:20 [error] [php] Undefined variable: users (/home/sergey_pekar/projects/ms.lo/public_html/old/themes/redesign/views/dashboard/home-guest.php:94)
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(866): DashboardController->renderFile()
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(779): DashboardController->renderPartial()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/controllers/DashboardController.php(42): DashboardController->render()
+#3 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): DashboardController->actionIndex()
+#4 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): DashboardController->runAction()
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): DashboardController->runActionWithFilters()
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): DashboardController->run()
+#8 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CWebApplication->run()
+REQUEST_URI=/
+2013/11/05 03:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/logo.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/logo.png
+2013/11/05 03:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/fon.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/f...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/fon.png
+2013/11/05 03:58:44 [error] [php] Undefined variable: users (/home/sergey_pekar/projects/ms.lo/public_html/old/themes/redesign/views/dashboard/home-guest.php:94)
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(866): DashboardController->renderFile()
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(779): DashboardController->renderPartial()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/controllers/DashboardController.php(42): DashboardController->render()
+#3 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): DashboardController->actionIndex()
+#4 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): DashboardController->runAction()
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): DashboardController->runActionWithFilters()
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): DashboardController->run()
+#8 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CWebApplication->run()
+REQUEST_URI=/
+2013/11/05 03:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/logo.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/logo.png
+2013/11/05 03:58:51 [error] [php] Undefined variable: users (/home/sergey_pekar/projects/ms.lo/public_html/old/themes/redesign/views/dashboard/home-guest.php:94)
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(866): DashboardController->renderFile()
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(779): DashboardController->renderPartial()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/controllers/DashboardController.php(42): DashboardController->render()
+#3 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): DashboardController->actionIndex()
+#4 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): DashboardController->runAction()
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): DashboardController->runActionWithFilters()
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): DashboardController->run()
+#8 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CWebApplication->run()
+REQUEST_URI=/
+2013/11/05 03:59:40 [error] [php] Undefined variable: users (/home/sergey_pekar/projects/ms.lo/public_html/old/themes/redesign/views/dashboard/home-guest.php:94)
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(866): DashboardController->renderFile()
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(779): DashboardController->renderPartial()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/controllers/DashboardController.php(42): DashboardController->render()
+#3 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): DashboardController->actionIndex()
+#4 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): DashboardController->runAction()
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): DashboardController->runActionWithFilters()
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): DashboardController->run()
+#8 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CWebApplication->run()
+REQUEST_URI=/
+2013/11/05 03:59:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/logo.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/logo.png
+2013/11/05 03:59:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/fon.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/f...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/fon.png
+2013/11/05 04:01:55 [error] [php] Undefined variable: city (/home/sergey_pekar/projects/ms.lo/public_html/old/themes/redesign/views/dashboard/home-guest.php:94)
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(866): DashboardController->renderFile()
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(779): DashboardController->renderPartial()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/controllers/DashboardController.php(42): DashboardController->render()
+#3 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): DashboardController->actionIndex()
+#4 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): DashboardController->runAction()
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): DashboardController->runActionWithFilters()
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): DashboardController->run()
+#8 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CWebApplication->run()
+REQUEST_URI=/
+2013/11/05 04:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/logo.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/logo.png
+2013/11/05 04:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/fon.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/f...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/fon.png
+2013/11/05 04:02:11 [error] [exception.CException] exception 'CException' with message 'Alias "application.components.UsersNearYourPlace" is invalid. Make sure it points to an existing PHP file.' in /home/sergey_pekar/projects/ms.lo/framework/YiiBase.php:321
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWidgetFactory.php(147): YiiBase::import('application.com...', true)
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(139): CWidgetFactory->createWidget(Object(DashboardController), 'application.com...', Array)
+#2 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(165): CBaseController->createWidget('application.com...', Array)
+#3 /home/sergey_pekar/projects/ms.lo/public_html/old/themes/redesign/views/dashboard/home-guest.php(94): CBaseController->widget('application.com...', Array)
+#4 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(119): require('/home/sergey_pe...')
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/sergey_pe...', NULL, true)
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(866): CBaseController->renderFile('/home/sergey_pe...', NULL, true)
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(779): CController->renderPartial('home-guest', NULL, true)
+#8 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/controllers/DashboardController.php(42): CController->render('home-guest')
+#9 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): DashboardController->actionIndex()
+#10 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#11 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#12 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): CController->run('index')
+#14 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('dashboard/index')
+#15 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#17 {main} REQUEST_URI=/
+2013/11/05 04:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/logo.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/logo.png
+2013/11/05 04:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/fon.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/f...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/fon.png
+2013/11/05 04:02:13 [error] [exception.CException] exception 'CException' with message 'Alias "application.components.UsersNearYourPlace" is invalid. Make sure it points to an existing PHP file.' in /home/sergey_pekar/projects/ms.lo/framework/YiiBase.php:321
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWidgetFactory.php(147): YiiBase::import('application.com...', true)
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(139): CWidgetFactory->createWidget(Object(DashboardController), 'application.com...', Array)
+#2 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(165): CBaseController->createWidget('application.com...', Array)
+#3 /home/sergey_pekar/projects/ms.lo/public_html/old/themes/redesign/views/dashboard/home-guest.php(94): CBaseController->widget('application.com...', Array)
+#4 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(119): require('/home/sergey_pe...')
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/sergey_pe...', NULL, true)
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(866): CBaseController->renderFile('/home/sergey_pe...', NULL, true)
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(779): CController->renderPartial('home-guest', NULL, true)
+#8 /home/sergey_pekar/projects/ms.lo/public_html/old/protected/controllers/DashboardController.php(42): CController->render('home-guest')
+#9 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): DashboardController->actionIndex()
+#10 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#11 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#12 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): CController->run('index')
+#14 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('dashboard/index')
+#15 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#17 {main} REQUEST_URI=/
+2013/11/05 04:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/logo.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/logo.png
+2013/11/05 04:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/fon.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/f...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/old/index.php(62): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/fon.png

@@ -16,8 +16,8 @@
                 <li>
                     <div class="user_profile">                        
                         <a href="profile/<?php echo $encid; ?>">
-                            <div class="effect"><img src="/../../images/my_search.png"></div>
-                            
+                            <div class="effect"></div>
+                            <div class="effect-label"><img src="/../../images/my_search.png"><p>view profile</p></div>
                             <img src="<?php echo $img; ?>" />
                         </a>
                         <a href="profile/<?php echo $encid; ?>">

@@ -2070,3 +2070,1408 @@ Stack trace:
 #1 /home/jenezis/sites/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #2 /home/jenezis/sites/ms.lo/public_html/index.php(78): CApplication->run()
 #3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/04 12:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 03:10:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:03:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:04:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:18:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:35:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:35:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:41:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:41:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:48:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:53:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:55:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:56:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:57:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:58:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:58:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 04:59:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:04:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:20:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:20:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:24:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:42:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:42:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:43:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/temporary-used-selectors.css".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('css/temporary-u...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/css/temporary-used-selectors.css
+2013/11/05 05:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:49:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/temporary-used-selectors.css".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('css/temporary-u...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/css/temporary-used-selectors.css
+2013/11/05 05:56:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:56:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:56:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 05:56:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:15:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:15:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 06:58:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:03:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:16:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:18:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:19:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:21:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 07:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:31:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:36:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:36:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:38:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:38:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:40:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:41:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:41:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:44:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:44:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:44:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:49:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:49:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:51:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:57:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 08:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:11:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:16:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:20:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:20:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:21:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:25:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "" was not found.' in /home/sergey_pekar/projects/ms.lo/public_html/protected/components/CStaticViewAction.php:49
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/public_html/protected/components/CStaticViewAction.php(55): CStaticViewAction->resolveView('')
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CAction.php(72): CStaticViewAction->run()
+#2 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CAction->runWithParams(Array)
+#3 /home/sergey_pekar/projects/ms.lo/public_html/protected/controllers/SiteController.php(27): CController->runAction(Object(CStaticViewAction))
+#4 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): SiteController->actionPage()
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): CController->run('page')
+#9 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('site/page')
+#10 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#12 {main} REQUEST_URI=/site/about
+2013/11/05 09:25:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:25:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:27:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:27:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:33:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:34:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:34:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:34:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:34:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:42:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:42:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:54:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 09:55:45 [error] [exception.CException] exception 'CException' with message 'Property "UserRegistrationForm.birthday" is not defined.' in /home/sergey_pekar/projects/ms.lo/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/helpers/CHtml.php(2063): CComponent->__get('birthday')
+#1 /home/sergey_pekar/projects/ms.lo/framework/web/helpers/CHtml.php(1791): CHtml::resolveValue(Object(UserRegistrationForm), 'birthday')
+#2 /home/sergey_pekar/projects/ms.lo/framework/web/helpers/CHtml.php(1213): CHtml::activeInputField('hidden', Object(UserRegistrationForm), 'birthday', Array)
+#3 /home/sergey_pekar/projects/ms.lo/framework/web/widgets/CActiveForm.php(583): CHtml::activeHiddenField(Object(UserRegistrationForm), 'birthday', Array)
+#4 /home/sergey_pekar/projects/ms.lo/public_html/protected/components/views/userregistration.php(63): CActiveForm->hiddenField(Object(UserRegistrationForm), 'birthday')
+#5 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(123): require('/home/sergey_pe...')
+#6 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/sergey_pe...', Array, false)
+#7 /home/sergey_pekar/projects/ms.lo/framework/web/widgets/CWidget.php(242): CBaseController->renderFile('/home/sergey_pe...', Array, false)
+#8 /home/sergey_pekar/projects/ms.lo/public_html/protected/components/UserRegistrationFormWidget.php(10): CWidget->render('userregistratio...', Array)
+#9 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(140): UserRegistrationFormWidget->init()
+#10 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(165): CBaseController->createWidget('application.com...', Array)
+#11 /home/sergey_pekar/projects/ms.lo/public_html/themes/redesign/views/dashboard/home-guest.php(30): CBaseController->widget('application.com...')
+#12 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(119): require('/home/sergey_pe...')
+#13 /home/sergey_pekar/projects/ms.lo/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/sergey_pe...', Array, true)
+#14 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(866): CBaseController->renderFile('/home/sergey_pe...', Array, true)
+#15 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(779): CController->renderPartial('home-guest', Array, true)
+#16 /home/sergey_pekar/projects/ms.lo/public_html/protected/controllers/DashboardController.php(80): CController->render('home-guest', Array)
+#17 /home/sergey_pekar/projects/ms.lo/framework/web/actions/CInlineAction.php(50): DashboardController->actionIndex()
+#18 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#19 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#20 /home/sergey_pekar/projects/ms.lo/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(277): CController->run('index')
+#22 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('dashboard/index')
+#23 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#24 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#25 {main} REQUEST_URI=/
+2013/11/05 10:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:08:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:08:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:11:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:11:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:13:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:13:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:14:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:17:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:23:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:28:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:29:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:29:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:30:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:31:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:35:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:35:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:41:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:47:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:47:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png
+2013/11/05 10:52:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/design/loginFB.png".' in /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /home/sergey_pekar/projects/ms.lo/framework/web/CWebApplication.php(136): CWebApplication->runController('images/design/l...')
+#1 /home/sergey_pekar/projects/ms.lo/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /home/sergey_pekar/projects/ms.lo/public_html/index.php(78): CApplication->run()
+#3 {main} REQUEST_URI=/images/design/loginFB.png

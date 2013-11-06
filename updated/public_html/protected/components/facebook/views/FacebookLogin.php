@@ -48,6 +48,6 @@ echo '</a>';
 ?>
 
 <a href="<?php  echo (DEMO) ? '' : Yii::app()->createAbsoluteUrl('site/facebooklogin') /*$facebook->getLoginUrl()*/ ?>">
-    <img width="197" height="35" src="http://<?php echo DOMAIN ?>/images/design/loginFB.png" style="border: none;"/>
+    <img width="197" height="35" src="http://<?php echo DOMAIN ?>/images/fb-login-button.png" style="border: none;"/>
 </a>
  

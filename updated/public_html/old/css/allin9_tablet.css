@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 13px;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+    z-index: 5;
+}
+
+body
+{
+    min-width:560px;
+}
+
+
+
+
+
+
+
+#wrapper-allin9 {
+	width: 580px;
+	margin: 0 auto;
+	font-size: 13px;
+	color: #434548;
+	padding-top: 5px;
+}
+
+#wrapper-allin9 h1 {
+	color: #930000;
+	text-align: center;
+	padding: 10px 0;
+
+	font: bold 19px "Trebuchet MS",Arial,Helvetica,Geneva,sans-serif;
+}
+
+#wrapper-allin9 a {text-decoration: underline;}
+
+.allin9-box {
+	margin: 0 auto;
+	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+  
+	 border: #ccc solid 1px;
+	 
+	 padding: 10px;
+}
+
+
+
+
+/*step 1*/
+#allin9-step1-form {padding: 0 30px}
+#allin9-step1-form .row {width: 100%;; margin: 0; min-height: 24px}
+#allin9-step1-form .row dt {width: 160px;}
+#allin9-step1-form .row dt label {width: 100%; font-size: 15px} 
+
+#allin9-step1-form .row dd {width: 300px;}
+#allin9-step1-form .row dd input {width: 260px;}
+#allin9-step1-form .row dd select {width: 270px;}
+
+#allin9-step1-form .row dd.errorMessage {width: 16px; height: 16px; margin-top:6px; background: url(/images/design/notok.gif) no-repeat;}
+
+#allin9-step1-form .row #Allin9Step1Form_birthday_year {
+    padding-left: 2px;
+    width: 80px;
+}
+#allin9-step1-form .row.birthday select {
+    float: left;
+    margin-right: 16px;
+}
+#allin9-step1-form .row #Allin9Step1Form_birthday_month {
+    padding-left: 2px;
+    width: 92px;
+}
+#allin9-step1-form .row #Allin9Step1Form_birthday_day {
+    padding-left: 2px;
+    width: 66px;
+}
+
+#allin9-step1-form .row.country {margin-top: 20px;}
+/*
+#allin9-step1-form #googleMap {width: 270px; height: 160px}
+*/
+
+#allin9-step1-form .center {margin-top: 20px;}
+
+#allin9-step1-form #cityLoading {
+	display: none;
+	width: 16px; height: 16px;
+	position: absolute; top: 6px; right: 104px; z-index: 100;
+	background:url(/images/design/loading.gif) 0 0 no-repeat;
+}
+
+
+
+
+
+/*step 2*/
+#wrapper-allin9 .logoText2 {text-align: right; padding-right: 60px}
+
+.allin9-box.allin9-step2 {width: 500px;} 
+.allin9-step2 table {
+	width: 100%;
+}
+.allin9-step2 table td {
+	padding: 10px;
+	color: #434548;
+    font-family: "Trebuchet MS",Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+    border: none;	 
+}
+.allin9-step2 table td .sbody {
+	color: #930000;
+    font: bold 16px "Trebuchet MS",Arial,Helvetica,Geneva,sans-serif;	
+}
+
+#finalprice {width: 100%; text-align: center; font-weight: bold; font-size: 13px; margin-bottom: 40px}
+#finalprice span {color:red; font-size: 13px;}
+
+
+
+
+
+
+
+/*step3*/
+.allin9-box.allin9-step3 {margin: 12px auto; width: 500px;}
+
+#allin9-step3-form .row {width: 100%}
+#allin9-step3-form .row dt {width: 35%;}
+#allin9-step3-form .row dt label {width: 90%; text-align: right; font-size: 15px}
+
+#allin9-step3-form .row dd {width: 65%}
+
+.allin9-box.allin9-step3 td {
+    color: #434548;
+    font-family: "Trebuchet MS",Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+
+#allin9-step3-form {}
+
+
+.subStepTitle {
+    color: #930000;
+    font: bold 19px "Trebuchet MS",Arial,Helvetica,Geneva,sans-serif;
+    line-height: 40px;
+}
+
+#allin9-step3-form form .row {min-height: 22px; margin-bottom: 0}
+
+#allin9-step3-form form .row input {width: 260px}
+#allin9-step3-form form .row select {width: 270px}
+
+#allin9-step3-form form .row #Allin9Step3Form_ccmon {width: 50px; margin-right: 14px}
+#allin9-step3-form form .row #Allin9Step3Form_ccyear {width: 80px}
+#allin9-step3-form form .row #Allin9Step3Form_ccvv {width: 80px}
+#allin9-step3-form form .row #Allin9Step3Form_zip {width: 80px}
+
+#fill2cont {display: none;}
+
+#allin9-step3-form .btn-danger {font-size: 16px}
+
+#allin9-step3-form .row dd#state-loading {
+	display: none;
+	width: 16px; height: 37px;
+	background:url(/images/design/loading.gif) 0 0 no-repeat;
+}
+#allin9-step3-form .row dd#state-NA {
+	display: none;
+	width: 16px; height: 22px; line-height: 22px; margin-bottom: 15px;
+	/*padding-top: 4px*/
+}
+
+#allin9-step3-form .center .btn {margin-top: 20px}
+#allin9-step3-form .holderinfor {margin-top: 40px}
+
+
+
+
+
+/*step 4*/
+.allin9-step4 {width: 450px; text-align: center; font-size: 13px;}
+.allin9-step4 p {width: 90%;  line-height: 200%; margin: 0 auto}
+
+

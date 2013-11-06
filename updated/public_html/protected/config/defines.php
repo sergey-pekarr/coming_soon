@@ -144,19 +144,19 @@ if (LOCAL)
 	    
 	    
 	    //DB
-	    define('DB_NAME', 'meetsi_db');
+	    define('DB_NAME', 'ms');
 	    define('DB_USER', 'root');
-	    define('DB_PASS', 'ok1605');
+	    define('DB_PASS', 'NiTqUHyhWY4gacYkDlLD');
 	    
 	    //GEO DB LIB
-	    define('DB_NAME_GEO', 'meetsi_geo');//static db for all sites
+	    define('DB_NAME_GEO', 'ms_geo');//static db for all sites
 	    define('DB_USER_GEO', 'root');
-	    define('DB_PASS_GEO', 'ok1605');	    
+	    define('DB_PASS_GEO', 'NiTqUHyhWY4gacYkDlLD');
 
 	    //DB_STATS
-	    define('DB_NAME_STATS', 'meetsi_stats');
+	    define('DB_NAME_STATS', 'ms_stats');
 	    define('DB_USER_STATS', 'root');
-	    define('DB_PASS_STATS', 'ok1605');	    
+	    define('DB_PASS_STATS', 'NiTqUHyhWY4gacYkDlLD');
 	    
 		//DB_QUIZZ
 	    define('DB_NAME_QUIZZ', 'quizz');

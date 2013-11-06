@@ -85,6 +85,7 @@ $app = Yii::app();
                                             'label' => 'HELP',
                                             'url' => array('/site/index'),
                                             'active' => false,
+                                            'itemOptions' => array('class' => 'last'),
                                         ),
                                     ),
                                 ));
@@ -115,11 +116,13 @@ $app = Yii::app();
                                             'label' => 'HELP',
                                             'url' => array('/help'),
                                             'active' => (Yii::app()->request->requestUri == '/help') ? true : false,
+                                            'itemOptions' => Yii::app()->user->isGuest ? array('class' => 'last') : array(),
                                         ),
                                         array(
                                             'label' => 'SIGN OUT',
                                             'url' => array('site/logout'),
                                             'visible' => !Yii::app()->user->isGuest,
+                                            'itemOptions' => array('class' => 'last'),
                                         ),
                                     ),
                                 ));
