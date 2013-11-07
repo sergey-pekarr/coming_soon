@@ -300,7 +300,7 @@ class SiteController extends Controller {
                         $this->redirect(Yii::app()->createAbsoluteUrl(Yii::app()->homeUrl));
                     }
                 } else {
-                    //echo "<script type='text/javascript'>top.location.href = 'http://apps.facebook.com/cytaeswoonr';</script>";
+                    //echo "<script type='text/javascript'>top.location.href = 'http://apps.facebook.com/cytaeswoonr';</script>"; // <-- swoonr here
                     //Yii::app()->end();
                     $this->redirect(Yii::app()->createAbsoluteUrl(Yii::app()->homeUrl));
                 }

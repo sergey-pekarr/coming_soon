@@ -3,7 +3,7 @@
     <h3>
         
 <?php /* 
-	Swoonr is a fun video based community for making new friends, or may be more ..
+	Meetsi is a fun video based community for making new friends, or may be more ..
         <br />
         Next level dating, Completely free. Meet you inside!
 */ ?>

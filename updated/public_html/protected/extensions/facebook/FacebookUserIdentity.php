@@ -51,7 +51,7 @@ class FacebookUserIdentity extends FacebookComponent implements IUserIdentity {
 
     public function authenticate() {
         
-        $params = array("scope" => "user_birthday,email"/*, "redirect_uri"=>"http://apps.facebook.com/cytaeswoonr/facebooklogin/"*/);
+        $params = array("scope" => "user_birthday,email"/*, "redirect_uri"=>"http://apps.facebook.com/cytaeswoonr/facebooklogin/"*/); // <-- swoonr here
         
         
 		$session = Yii::app()->session;
@@ -74,7 +74,7 @@ class FacebookUserIdentity extends FacebookComponent implements IUserIdentity {
 
 			} catch (FacebookApiException $e) {
 				$user = null;
-			  	//$params = array("scope" => "user_birthday,email", /*"redirect_uri"=>"http://apps.facebook.com/cytaeswoonr/facebooklogin"*/);//	,read_stream
+			  	//$params = array("scope" => "user_birthday,email", /*"redirect_uri"=>"http://apps.facebook.com/cytaeswoonr/facebooklogin"*/);//	,read_stream   // <-- swoonr here
 				$loginUrl = $facebook->getLoginUrl($params);
 
             if (FACEBOOK)
@@ -88,7 +88,7 @@ class FacebookUserIdentity extends FacebookComponent implements IUserIdentity {
             			}
             		// Log in!
             		} else {
-            			//$params = array("scope" => "user_birthday,email", "redirect_uri"=>"http://apps.facebook.com/cytaeswoonr/facebooklogin");//	,read_stream
+            			//$params = array("scope" => "user_birthday,email", "redirect_uri"=>"http://apps.facebook.com/cytaeswoonr/facebooklogin");//	,read_stream // <-- swoonr here
             			$loginUrl = $facebook->getLoginUrl($params);
             //			Yii::app()->request->redirect($loginUrl);
             if (FACEBOOK)

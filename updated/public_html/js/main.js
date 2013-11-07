@@ -17,7 +17,7 @@ $(document).ready(function()
     $('.tabs').tabs();
 */    
     //alertDialog('hggfghfghfghf');
-//    var template = "<div class='content nobg'><p class='triangle-left top'>Welcome! Swoonr social video makes connection with people around you easier then ever. <br /> Discaver <span style='font-weight:bold'>real people</span>, first and have fan! <span style='text-decoration:underline'>See for yourself</span> just how easy it is to get started!</p></div>";
+//    var template = "<div class='content nobg'><p class='triangle-left top'>Welcome! Meetsi social video makes connection with people around you easier then ever. <br /> Discaver <span style='font-weight:bold'>real people</span>, first and have fan! <span style='text-decoration:underline'>See for yourself</span> just how easy it is to get started!</p></div>";
 //    $("#logoMain").popover({placement:'below-left', html:true, template:template, delayIn:200, delayOut:400});//.popover('show');
 
     

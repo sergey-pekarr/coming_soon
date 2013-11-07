@@ -20,7 +20,7 @@
             
             <?php /*
             
-            If you just can't wait to get in, try _tipping the Swoonr bouncer $10_
+            If you just can't wait to get in, try _tipping the Meetsi bouncer $10_
             (this will be uncommented when we have more users, and also added to the "Waiting for video approval" screen)
              
             */ ?>

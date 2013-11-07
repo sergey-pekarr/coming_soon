@@ -658,7 +658,7 @@ class Profile
         $connection=Yii::app()->db;
         $command=$connection->createCommand($sql);
         
-        $data['email'] = $data['username'].'@swoonr.com';
+        $data['email'] = $data['username'].'@swoonr.com';  // <-- swoonr here
         $command->bindValue(":email",$data['email'],PDO::PARAM_STR);
         $command->bindValue(":username",$data['username'],PDO::PARAM_STR);
         
