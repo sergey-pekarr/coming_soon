@@ -179,7 +179,8 @@ if ($rows)
             	foreach ($dublicatesIP_B as $did)
                     $dublicate_sales_by_IP_B[] = $did['id'];
                     
-				$dublicate_sales_by_IP_B___EMAIL[] = "http://pinkmeets.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $dublicate_sales_by_IP_B);
+				//$dublicate_sales_by_IP_B___EMAIL[] = "http://pinkmeets.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $dublicate_sales_by_IP_B);
+				$dublicate_sales_by_IP_B___EMAIL[] = "http://meetsi.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $dublicate_sales_by_IP_B);
             }
             $dublicate_sales_by_IP_B = ($dublicate_sales_by_IP_B) ? serialize($dublicate_sales_by_IP_B) : "";
         }
@@ -221,9 +222,11 @@ if ($rows)
 			if ( $proxy_maxmind_res!='' && floatval($proxy_maxmind_res)>0.00 && floatval($proxy_maxmind_res)<=4.01 )
 			{
 				$prBody = "MaxMind proxy detected: \n";
-				$prBody.= "http://pinkmeets.com/admin/payments/todayGold/?sale=".$row['id'];
+				//$prBody.= "http://pinkmeets.com/admin/payments/todayGold/?sale=".$row['id'];
+				$prBody.= "http://meetsi.com/admin/payments/todayGold/?sale=".$row['id'];
 				$prBody.= "\n\n";
-				mail("admin@pinkmeets.com", "PM, Today Gold maxmind proxy detected", $prBody);
+				//mail("admin@pinkmeets.com", "PM, Today Gold maxmind proxy detected", $prBody);
+				mail("admin@meetsi.com", "PM, Today Gold maxmind proxy detected", $prBody);
 				mail("its-your-dream@yandex.ru", "PM, Today Gold maxmind proxy detected", $prBody);
 			}
         }
@@ -307,7 +310,8 @@ if ($rows)
             	
             	
             	if (count($res_email)>=2)
-            		$dublicate_sales_by_OS_2___EMAIL[] = "http://pinkmeets.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $res_email);
+//            		$dublicate_sales_by_OS_2___EMAIL[] = "http://pinkmeets.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $res_email);
+            		$dublicate_sales_by_OS_2___EMAIL[] = "http://meetsi.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $res_email);
             }
         }
         
@@ -324,8 +328,9 @@ if ($rows)
 			&&
 			intval($pc_info_screen_resolution_array[0])<1366 
 		)
-        	$dublicate_sales_by_OS_2___EMAIL[] = "http://pinkmeets.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $dublicate_sales_by_OS_2);*/
-        	        
+        	$dublicate_sales_by_OS_2___EMAIL[] = "http://pinkmeets.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $dublicate_sales_by_OS_2);
+        	$dublicate_sales_by_OS_2___EMAIL[] = "http://meetsi.com/admin/payments/todayGold/?sale=".$row['id'].",".implode(",", $dublicate_sales_by_OS_2);*/
+
         $dublicate_sales_by_OS_2 = ($dublicate_sales_by_OS_2) ? serialize($dublicate_sales_by_OS_2) : "";
 
         
@@ -609,7 +614,7 @@ if ($dublicate_sales_by_OS_2___EMAIL)
 }*/
 if ($duplBody)
 {
-	mail("admin@pinkmeets.com", "PM, Today Gold duplicates report", $duplBody);
+	mail("admin@meetsi.com", "PM, Today Gold duplicates report", $duplBody);
 }
 
 

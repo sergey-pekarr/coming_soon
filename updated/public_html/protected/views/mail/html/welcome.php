@@ -4,7 +4,7 @@
     <p>
         Hey <?php echo $data['username'] ?>,</p>
     <p>
-        Welcome to PinkMeets!</p>
+        Welcome to Meetsi!</p>
     <p>
         To complete your account setup and gain access to the members area we need you to
         verify your email address.</p>
@@ -16,7 +16,7 @@
         browser's address bar: <?php echo $data['confirmEmailUrl'] ?>
     </p>
     <p>
-        Below are your logins which you will need to begin your PinkMeets search. Be
+        Below are your logins which you will need to begin your Meetsi search. Be
         sure to keep them in a safe place.</p>
     <p>
         <strong>Your username:</strong> <span><?php echo $data['username'] ?></span>

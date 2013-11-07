@@ -22,7 +22,7 @@
     color: rgb(255, 255, 255);
     position: relative;
     text-shadow: #1872b7 1px 1px;
-    background: url("/images/img/pinkmeets/body_vertical.png") repeat-x 0px -42px;
+    background: url("/images/img/meetsi/body_vertical.png") repeat-x 0px -42px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     -webkit-border-top-left-radius: 5px;
@@ -220,7 +220,7 @@ h3.center_blue
 }
 .ui-slider .ui-slider-range
 {
-    background: url("/images/img/pinkmeets/body_vertical.png") repeat-x 0px -232px;
+    background: url("/images/img/meetsi/body_vertical.png") repeat-x 0px -232px;
     border-radius: 3px 3px 5px 5px;
     border: 0px currentColor;
     font-size: 0.7em;
@@ -232,7 +232,7 @@ h3.center_blue
 }
 .slider_wrap .ui-widget-content
 {
-    background: url("/images/img/pinkmeets/body_vertical.png") repeat-x 0px -226px;
+    background: url("/images/img/meetsi/body_vertical.png") repeat-x 0px -226px;
     margin: 10px 0px;
     border-radius: 3px 3px 5px 5px;
     border: 0px currentColor;

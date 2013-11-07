@@ -517,7 +517,7 @@ $('#LandingCamsAllinOneStepForm_city').val('".$cityInit."');
 					<?php } ?>
 				</div>
 				<div class="right" style="font-size:10px">
-					Connect with local girls now with a membership to <a href="http:/pinkmeetss.com" target="_blank">pinkmeets.com</a> Adult Personals gold account. You agree to join pinkmeets.com adult dating for $9.00 for a twenty four hour trial. Your subscription will automatically renew after twenty four hours at $39 a month, cancel at anytime. I agree to the terms and conditions <a target="_blank" href="http://pinkmeets.com/site/page/terms">here</a>.
+					Connect with local girls now with a membership to <a href="http://meetsi.com" target="_blank">meetsi.com</a> Adult Personals gold account. You agree to join meetsi.com adult dating for $9.00 for a twenty four hour trial. Your subscription will automatically renew after twenty four hours at $39 a month, cancel at anytime. I agree to the terms and conditions <a target="_blank" href="http://meetsi.com/site/page/terms">here</a>.
 				</div>
 				<div class="clear"></div>		
 			</div>
@@ -598,7 +598,7 @@ $('#LandingCamsAllinOneStepForm_city').val('".$cityInit."');
 	function step3_formBtnChange()
 	{
 		if ($(".joinONL input[type=checkbox]:checked").length)
-			$('#landingcams-stepAll-form .btn').html('Upgrade and add pinkmeets.com membership and start searching now!');
+			$('#landingcams-stepAll-form .btn').html('Upgrade and add meetsi.com membership and start searching now!');
 		else
 			$('#landingcams-stepAll-form .btn').html('Click here to start browsing now!');
 	}

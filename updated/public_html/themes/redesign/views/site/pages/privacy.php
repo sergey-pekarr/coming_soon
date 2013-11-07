@@ -24,10 +24,10 @@ $this->breadcrumbs=array(
 
 
                     <h3>
-                    	2. About PinkMeets and Information We Collect
+                    	2. About Meetsi and Information We Collect
                     </h3>
                     <p>
-	                    PinkMeets is an online network which provides you useful tools and communities to build relationships online. PinkMeets basic service is FREE to all qualified members.
+	                    Meetsi is an online network which provides you useful tools and communities to build relationships online. Meetsi basic service is FREE to all qualified members.
 
 In our online ANONYMOUS registration form, we ask you to provide us with certain information such as your age and the type of relationship you are looking for. In addition, we collect address, credit card, and bank information only from those who wish to acquire Gold and Silver member privileges. However, NONE of the personally identifiable information can be accessed or used by the public to identify a specific individual.
 
@@ -35,7 +35,7 @@ In the course of using our site, we automatically track certain information such
 
 If you send us personal correspondence, such as emails or letters, or if other users or third parties send us correspondence about your activities or postings on the site, we may collect such information into a file which is only accessed by authorized personnel. We may also collect other users' comments about you in our complaints department.
 
-If you choose to use our referral service to tell a friend about our site, we will ask you for your friend's name and email address. We will automatically send your friend a one-time email inviting him or her to visit the site. PinkMeets stores this information for the sole purpose of sending this one-time email and tracking the success of our referral program. Your friend may contact us at Customer Service to request that we remove this information from our database.
+If you choose to use our referral service to tell a friend about our site, we will ask you for your friend's name and email address. We will automatically send your friend a one-time email inviting him or her to visit the site. Meetsi stores this information for the sole purpose of sending this one-time email and tracking the success of our referral program. Your friend may contact us at Customer Service to request that we remove this information from our database.
                     </p>
 
 
@@ -59,7 +59,7 @@ We use personally identifiable information to resolve disputes, troubleshoot pro
                     <p>
 	                    We DO NOT sell or rent any personally identifiable information about you to any third party without your permission. We do disclose information in aggregate to advertisers and for other marketing and promotional purposes. However, in these situations, we DO NOT disclose to these entities any information that could be used to personally identify you. Certain information, such as your password, credit card number, and bank account number, are not disclosed in aggregate at all.
 
-In order to maintain a healthy community, PinkMeets cooperates with all law enforcement inquiries and with all third parties to enforce their intellectual property or other rights.
+In order to maintain a healthy community, Meetsi cooperates with all law enforcement inquiries and with all third parties to enforce their intellectual property or other rights.
 
 We reserve the right to disclose your personally identifiable information as required by law and when we believe that disclosure is necessary to protect our rights and/or to comply with a judicial proceeding, court order, or legal process served on our Web site. We use a credit card processing company to bill you for goods and services. These companies do not retain, share, store or use personally identifiable information for any other purposes.
                     </p>
@@ -69,7 +69,7 @@ We reserve the right to disclose your personally identifiable information as req
                     	5. Your use of Other Users' Information
                     </h3>
                     <p>
-	                    You may not use other user's information for commercial purposes, to spam, to harass, or to make unlawful threats. PinkMeets reserves the right to terminate those who misuse other user's information or who otherwise violate the PinkMeets Terms of Use.
+	                    You may not use other user's information for commercial purposes, to spam, to harass, or to make unlawful threats. Meetsi reserves the right to terminate those who misuse other user's information or who otherwise violate the Meetsi Terms of Use.
                     </p>
 
 
@@ -85,7 +85,7 @@ We reserve the right to disclose your personally identifiable information as req
                     	7. Reviewing and Changing Your Personally Identifiable Information
                     </h3>
                     <p>
-	                    Once you register, you will be able to review and change much of your personally identifiable information at PinkMeets including:
+	                    Once you register, you will be able to review and change much of your personally identifiable information at Meetsi including:
 <br />
 Your email address<br />
 Your city, state, zip code, country<br />
@@ -102,7 +102,7 @@ Upon your request, we will remove your credit card number and credit card expira
                     	8. Third Party Collections of Information
                     </h3>
                     <p>
-	                    Our policy only addresses the use and disclosure of information we collect from you. To the extent that you disclose your information to other parties on our system or other sites throughout the Internet, different rules may apply to their use or disclosure of the personal information you disclose to them. While PinkMeets is working closely with our partners to ensure the highest privacy to you, we encourage you to ask questions before you disclose your personal information to others.
+	                    Our policy only addresses the use and disclosure of information we collect from you. To the extent that you disclose your information to other parties on our system or other sites throughout the Internet, different rules may apply to their use or disclosure of the personal information you disclose to them. While Meetsi is working closely with our partners to ensure the highest privacy to you, we encourage you to ask questions before you disclose your personal information to others.
                     </p>
 
 
@@ -110,7 +110,7 @@ Upon your request, we will remove your credit card number and credit card expira
                     	9. Security
                     </h3>
                     <p>
-	                    PinkMeets has security measures in place to protect and prevent the loss, misuse, and alteration of the information under our control. PinkMeets uses industry standard efforts to safeguard the confidentiality of your personal identifiable information such as firewalls. While "perfect security" does not exist on the Internet, our technical experts at PinkMeets work hard to ensure your secure use of our services.
+	                    Meetsi has security measures in place to protect and prevent the loss, misuse, and alteration of the information under our control. Meetsi uses industry standard efforts to safeguard the confidentiality of your personal identifiable information such as firewalls. While "perfect security" does not exist on the Internet, our technical experts at Meetsi work hard to ensure your secure use of our services.
                     </p>
 
 
@@ -126,7 +126,7 @@ To opt out of receiving emails please email
 	contactUsShow();
 //-->
 </script> 
-<?php /*  admin@pinkmeets.com */ ?>
+<?php /*  admin@meetsi.com */ ?>
 <?php /* 
 or send us a letter to:<br />
 						...<br />

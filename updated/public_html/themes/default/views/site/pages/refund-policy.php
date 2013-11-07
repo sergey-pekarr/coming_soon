@@ -16,7 +16,7 @@ $this->breadcrumbs=array(
             </div>
             <div style="padding: 5px; border: 1px solid rgb(192, 192, 192);">
                 <div style="padding: 5px;">
-PinkMeets does not provide cash refunds. Refunds to your credit card will be provided upon request. 
+Meetsi does not provide cash refunds. Refunds to your credit card will be provided upon request.
 				</div>
             </div>
 <br /><br /><br /><br />

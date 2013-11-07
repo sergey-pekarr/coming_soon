@@ -13,7 +13,7 @@
         </p>
         
         <p id="global_footer_copyr">
-            Copyright 2012-<?php echo date("Y") ?> Pinkmeets.com All Rights Reserved.
+            Copyright 2012-<?php echo date("Y") ?> meetsi.com All Rights Reserved.
 		</p>
 		
 		<p>

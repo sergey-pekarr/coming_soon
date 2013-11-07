@@ -743,7 +743,7 @@ class RiskDetection{
 					$cardIds .= ($cardIds == ''?'':',').$item['duplicate_by_figure_print'];
 				}	
 				$from = "admin@".SITE;
-				$to = 'admin@pinkmeets.com';
+				$to = 'admin@meetsi.com';
 				$subject = 'Today fraud: '.date('Y-m-d', time());
 				$link = SITE_URL."/admin/risk?ids=$ids";
 				$cardLink = SITE_URL."/admin/risk/affcardinfo?AffCardInfoForm%5Bids%5D=$cardIds&AffCardInfoForm%5Baff%5D={$items[0]['manager_id']}";

@@ -4,7 +4,7 @@
     <p>
         Hey <?php echo $data['username'] ?>,</p>
     <p>
-        Welcome to PinkMeets!</p>
+        Welcome to Meetsi!</p>
     <p>
         To complete your account setup and gain access to the members area we need you to
         verify your email address.</p>

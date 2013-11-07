@@ -1,7 +1,7 @@
 <div style="padding-bottom: 15px;">
     <p>
         
-            Below you will find a list of pinkmeets.com members who have requested to see more
+            Below you will find a list of meetsi.com members who have requested to see more
             photos of you. Why not <a href="/profile/editphotos">upload a new photo</a> now?
     </p>
     <br>

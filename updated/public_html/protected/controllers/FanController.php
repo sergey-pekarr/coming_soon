@@ -102,7 +102,7 @@ class FanController extends Controller
 > -make it on ONL so girls get paid every time they get a man to message them. 
 Have a little stats area for each girl that signs up showing her the date/week/month and each time a man messages then it will show up in their stats as a link in their menu. After a girl signs up and she logs into the site, make a link in the menu that says "Flirt and get paid"
 
-> Then make a page when they click on that , that says "You can make .25 every time a man messages you. To apply simply upload a picture of yourself with a fan sign (a piece of paper) that says your username and then "pinkmeets.com" After you upload your picture we will notify you of your approval and signup instructions for you to get paid weekly through red pass, a prepaid visa ATM card that we send to you to load funds on.
+> Then make a page when they click on that , that says "You can make .25 every time a man messages you. To apply simply upload a picture of yourself with a fan sign (a piece of paper) that says your username and then "meetsi.com" After you upload your picture we will notify you of your approval and signup instructions for you to get paid weekly through red pass, a prepaid visa ATM card that we send to you to load funds on.
 Then just have an upload image button right there on that page. 
 
 >Have an area in admin area where I can approve girls who apply to do this. Lets call them fan girls. Put in there somewhere an area where i can set the payout per message.

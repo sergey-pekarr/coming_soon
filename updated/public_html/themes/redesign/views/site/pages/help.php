@@ -5,7 +5,7 @@
             <?php include dirname(__FILE__).'/contactpanel.php'; ?>
 
             <div style="padding-right: 10px; padding-bottom: 5px; padding-left: 10px;">
-                <b>1. Does pinkmeets staff monitor my messages?</b>
+                <b>1. Does meetsi staff monitor my messages?</b>
             </div>
             <div style="padding: 5px; border: 1px solid rgb(192, 192, 192);">
                 <div style="padding: 8px;">

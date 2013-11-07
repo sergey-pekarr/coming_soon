@@ -9,7 +9,7 @@ Please upload another sign picture.
 	else if($status == 'canceled') { ?>
 	<h3 class="intro">
 	You can make .25 every time a man messages you. 
-	To apply simply upload a picture of yourself with a fan sign (a piece of paper) that says your username and then "pinkmeets.com" 
+	To apply simply upload a picture of yourself with a fan sign (a piece of paper) that says your username and then "meetsi.com"
 	After you upload your picture we will notify you of your approval and signup instructions for you to get paid weekly through red pass, 
 	a prepaid visa ATM card that we send to you to load funds on.
 	</h3>
@@ -17,7 +17,7 @@ Please upload another sign picture.
 	else { ?>
 	<h3 class="intro">
 	You can make .25 every time a man messages you. 
-	To apply simply upload a picture of yourself with a fan sign (a piece of paper) that says your username and then "pinkmeets.com" 
+	To apply simply upload a picture of yourself with a fan sign (a piece of paper) that says your username and then "meetsi.com"
 	After you upload your picture we will notify you of your approval and signup instructions for you to get paid weekly through red pass, 
 	a prepaid visa ATM card that we send to you to load funds on.
 	</h3>

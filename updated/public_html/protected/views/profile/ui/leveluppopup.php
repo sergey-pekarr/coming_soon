@@ -258,7 +258,7 @@ $like = $levelInf['like'];
                 <h3>
                     What's this about?</h3>
                 <p>
-                    Level Up is the latest way to track &amp; improve the status of <?php echo $lvtext3; ?> pinkmeets profile.
+                    Level Up is the latest way to track &amp; improve the status of <?php echo $lvtext3; ?> meetsi profile.
                     By completing the simple tasks you can become a prestige member and increase the
                     visibility of your account to other members. Get started now and stand out from
                     the crowd!

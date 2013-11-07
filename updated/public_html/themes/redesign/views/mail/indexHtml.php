@@ -5,7 +5,7 @@
             <tr>
                 <td>
                     <a href="<?php echo (isset($row['data']['autoLoginUrl'])) ? $row['data']['autoLoginUrl'] : SITE_URL ?>" rel="nofollow" target="_blank">
-                        <img style="margin: 0px 0px 10px; border: 0px currentColor;" alt="PinkMeets" src="<?php echo SITE_URL ?>/images/img/pinkmeets/logo1.png">
+                        <img style="margin: 0px 0px 10px; border: 0px currentColor;" alt="Meetsi" src="<?php echo SITE_URL ?>/images/img/meetsi/logo1.png">
 					</a>
                 </td>
                 <td style="text-align: right;">
@@ -34,7 +34,7 @@
                         To stop receiving emails from us please click <strong><a href="<?php echo (isset($row['data']['unsubscribeUrl'])) ? $row['data']['unsubscribeUrl'] : SITE_URL.'/account' ?>"
                             target="_blank">unsubscribe</a></strong><br>
                         <a href="<?php echo (isset($row['data']['autoLoginUrl'])) ? $row['data']['autoLoginUrl'] : SITE_URL ?>" target="_blank">
-                            PinkMeets.com</a><br>
+                            Meetsi.com</a><br>
                     </div>
                 </td>
             </tr>

@@ -320,8 +320,8 @@ window.location.href=ret;
 	<?php } else { ?>
 		<div style="margin-top:16px; font-weight:bold; font-size:12px">
 			The charge on your credit card bill will appear as 
-			<br /> 
-			PinkMeets.com on your credit card statement
+			<br />
+            Meetsi.com on your credit card statement
 		</div>
 	<?php } ?>
 	

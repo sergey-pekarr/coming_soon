@@ -37,7 +37,7 @@ $app = Yii::app();
     
     <h1 class="sitelogo">
     	<a href="<?php echo SITE_URL ?>/">
-    		<img src="/images/img/pinkmeets/logo1.png">
+    		<img src="/images/img/meetsi/logo1.png">
     	</a>
     </h1>
 	

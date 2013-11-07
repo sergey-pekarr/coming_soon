@@ -1,4 +1,4 @@
-<h1>Sign up for PinkMeets.com!</h1>
+<h1>Sign up for Meetsi.com!</h1>
 
 <div class="allin9-box">
 

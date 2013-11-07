@@ -116,7 +116,7 @@ class Payment_segpay extends Payment
 		$x_decl_text = urlencode("CLICK HERE TO TRY ADDITIONAL PAYMENT OPTIONS");
 		
 		$x_auth_link = urlencode( SITE_URL."/payment/approved" );
-		$x_auth_text = urlencode("Proceed to PinkMeets!");
+		$x_auth_text = urlencode("Proceed to Meetsi!");
 
 		$FIRSTNAME = "";//urlencode($USER['firstname']);
 		$LASTNAME = "";//urlencode($USER['lastname']);

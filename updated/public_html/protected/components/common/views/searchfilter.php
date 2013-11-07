@@ -13,7 +13,7 @@
         color: rgb(255, 255, 255);
         position: relative;
         text-shadow: #1872b7 1px 1px;
-        background: url("/images/img/pinkmeets/body_vertical.png") repeat-x 0px -42px;
+        background: url("/images/img/meetsi/body_vertical.png") repeat-x 0px -42px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         -webkit-border-top-left-radius: 5px;

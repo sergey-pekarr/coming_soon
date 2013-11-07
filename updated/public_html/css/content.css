@@ -2,7 +2,7 @@
 
 /*GUEST*/
 #content.guest {
-    /*background: url("/images/img/pinkmeets/bx.c.png") repeat-y scroll 0 0 transparent;*/
+    /*background: url("/images/img/meetsi/bx.c.png") repeat-y scroll 0 0 transparent;*/
     background: url('/images/design/banner.jpg') no-repeat top center;
     margin: 14px auto 0 auto; /*margin: -34px auto -100px auto;*/
     min-height: 430px;
@@ -124,7 +124,7 @@
 
 
 .guest-right .guest-right-box #ribbon2  {
-    background: url("/images/img/pinkmeets/s.png") no-repeat scroll -371px 0 transparent;
+    background: url("/images/img/meetsi/s.png") no-repeat scroll -371px 0 transparent;
     height: 120px;
     position: absolute;
     right: 0;
@@ -133,7 +133,7 @@
     z-index: 9999;
 }
 .guest-right .guest-right-box .signup-header .get-laid.clean {
-    background: url("/images/img/pinkmeets/s.png?u=2") repeat scroll -414px -216px transparent;
+    background: url("/images/img/meetsi/s.png?u=2") repeat scroll -414px -216px transparent;
     height: 25px;
     margin: 5px 0 8px 5px;
     width: 240px;
@@ -150,7 +150,7 @@
 
 .guest-right h3.find-buddy.clean, 
 h3.find-buddy.clean {
-    background: url("/images/img/pinkmeets/s.png?u=2") repeat scroll -248px -280px transparent;
+    background: url("/images/img/meetsi/s.png?u=2") repeat scroll -248px -280px transparent;
     display: block;
     height: 31px;
     margin: 0 auto;
@@ -275,7 +275,7 @@ h3.find-buddy.clean {
 #DashboardPopular h1 {
 	float: left;
 	text-shadow: 1px 1px 0 #2D426E;
-	background: url("/images/img/pinkmeets/body_vertical.png") repeat-x 0 -42px;
+	background: url("/images/img/meetsi/body_vertical.png") repeat-x 0 -42px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     color: #fff;

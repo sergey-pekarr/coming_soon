@@ -33,7 +33,7 @@
 										</p>
 <?php /*
                                         <p style="text-align: center;">
-                                            <strong><a href="http://pinkmeets.com/profile.php?facebookphoto&auth={authuser}&l={logincode}" rel="nofollow" target="_blank">CLICK HERE
+                                            <strong><a href="http://meetsi.com/profile.php?facebookphoto&auth={authuser}&l={logincode}" rel="nofollow" target="_blank">CLICK HERE
                                                 to add from your Facebook account</a></strong></p>
 */?>
                                     </td>

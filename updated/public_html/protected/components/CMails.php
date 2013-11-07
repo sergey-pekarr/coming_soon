@@ -11,7 +11,7 @@ class CMails extends YiiMail
 	*/
 	public function init() 
     {
-        $this->from = array(Yii::app()->params['adminEmail'] => "PinkMeets"/*Yii::app()->name*/);
+        $this->from = array(Yii::app()->params['adminEmail'] => "Meetsi"/*Yii::app()->name*/);
         
 		parent::init();	
 	}

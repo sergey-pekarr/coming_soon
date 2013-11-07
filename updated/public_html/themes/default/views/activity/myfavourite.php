@@ -1,7 +1,7 @@
 <div style="padding-bottom: 15px;">
         <p>
 
-			Below you will find a list of the last 50 pinkmeets.com members you have favoured
+			Below you will find a list of the last 50 meetsi.com members you have favoured
 
 
         </p>

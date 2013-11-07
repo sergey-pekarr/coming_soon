@@ -34,7 +34,7 @@ Zombaio Accounts: <a target="_blank" href="http://support.zombaio.com/">http://s
 All charges will appear through our payment processor PKM Billing, and will read PKMBilling.com on your cardholder statement.
 <br />
 <br />
-PinkMeets accounts: Submit ticket above.
+Meetsi accounts: Submit ticket above.
 
 
 </div>

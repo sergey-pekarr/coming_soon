@@ -14,7 +14,7 @@
                     <p>
                         YAll models, actors, actresses and other persons that appear in any visual portrayal
                         of actual sexually explicit conduct appearing or otherwise contained in this Website
-                        (pinkmeets.com) were over the age of eighteen years at the time the visual
+                        (meetsi.com) were over the age of eighteen years at the time the visual
                         image was created.</p>
                     <h3>
                     </h3>
@@ -36,11 +36,11 @@
                     <p>
                         The owners and operators of this Web site are not the primary producers (as that
                         term is defined in 18 U.S.C. Section 2257) of any of the visual content contained
-                        in the Website (pinkmeets.com).</p>
+                        in the Website (meetsi.com).</p>
                     <h3>
                     </h3>
                     <p>
-                        The images contained on pinkmeets.com were published, republished, reproduced
+                        The images contained on meetsi.com were published, republished, reproduced
                         or reissued on December 2006 This company is a proud member of the Free Speech Coalition.
                         Record of membership on file.</p>
                     <h3>

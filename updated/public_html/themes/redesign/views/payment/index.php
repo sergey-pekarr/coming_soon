@@ -69,7 +69,7 @@ $lifetimesave = 70;
 				contactUsShow();
 			  //-->
 			</script>
-			<?php /* support@pinkmeets.com */ ?>
+			<?php /* support@meetsi.com */ ?>
 		</p>
 		
 		<p class="paymentToConatct" style="margin-top:10px">

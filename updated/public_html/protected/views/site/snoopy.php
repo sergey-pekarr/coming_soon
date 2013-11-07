@@ -471,7 +471,7 @@
                 </p>
                 <p>
                     Remember! I’m your friend, if you need any help on the site be sure to check my
-                    blog or email Support@pinkmeets.com.</p>
+                    blog or email Support@meetsi.com.</p>
                 <p>
                     I’m gonna be here as your eyes and ears bringing you latest announcements on our
                     awesome new features, the newest and hottest fashion tips, letting you know the
