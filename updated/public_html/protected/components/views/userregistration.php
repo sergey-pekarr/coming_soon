@@ -63,7 +63,18 @@
             /*echo $form->dropDownList($model,'birthday[year]', Yii::app()->helperProfile->getYear(true));
             echo $form->dropDownList($model,'birthday[month]', Yii::app()->helperProfile->getMonth(true));
             echo $form->dropDownList($model,'birthday[day]', Yii::app()->helperProfile->getDays(true));*/
-            echo $form->textField($model, 'birthday');
+            //echo $form->textField($model, 'birthday');
+            $this->widget('zii.widgets.jui.CJuiDatePicker',array(
+                'name'=>'publishDate',
+                // additional javascript options for the date picker plugin
+                'options'=>array(
+                    'showAnim'=>'fold',
+                    'dateFormat'=>'yy/mm/dd',
+                ),
+                'htmlOptions'=>array(
+                    'style'=>'height:20px;'
+                ),
+            ));
         ?>
         </dd>
         <?php echo $form->error($model,'birthday'); ?>
