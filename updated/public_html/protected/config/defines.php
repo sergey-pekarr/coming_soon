@@ -234,18 +234,18 @@ else
     //DB
     define('DB_NAME', 'ms');
     define('DB_USER', 'meetsi');
-    define('DB_PASS', '6Gj5exvob8rK1uCjxSb');
+    define('DB_PASS', 'klfIL69rHo');
     
 	//GEO DB LIB
 	define('DB_NAME_GEO', 'ms_geo');//define('DB_NAME_GEO', 'geo');
 	define('DB_USER_GEO', 'meetsi');
-	define('DB_PASS_GEO', '6Gj5exvob8rK1uCjxSb');    
+	define('DB_PASS_GEO', 'klfIL69rHo');
    
 
     //DB_STATS
 	define('DB_NAME_STATS', 'ms_stats');
 	define('DB_USER_STATS', 'meetsi');
-	define('DB_PASS_STATS', '6Gj5exvob8rK1uCjxSb');    
+	define('DB_PASS_STATS', 'klfIL69rHo');
     
 	//DB_QUIZZ
 	define('DB_NAME_QUIZZ', 'quizz');

@@ -1,7 +1,6 @@
 # Yii-specific
 updated/public_html/assets/
 updated/public_html/protected/runtime/
-updated/public_html/protected/config/defines.php
 
 *.iml
 *.ipr
