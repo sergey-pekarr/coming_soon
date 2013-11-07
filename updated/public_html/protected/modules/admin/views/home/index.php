@@ -1,4 +1,3 @@
-<?php die('qqqqqqqqq'); ?>
 <div id="summaryFormBox" class="form">
     <div class="row">
         <?php
@@ -14,7 +13,7 @@
         );
         ?>
 
-        <?php $this->endWidget(); die('qqqq');?>
+        <?php $this->endWidget();?>
 
 
         <dd>
