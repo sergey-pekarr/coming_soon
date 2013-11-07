@@ -29,8 +29,9 @@ class CHelperAssets
 //					"/css/font.css",
 					"/css/ui/jquery-ui.css",
 //					"/css/bubbles.css",
-					"/css/bootstrap/bootstrap.css",
-					"/css/bootstrap/bootstrap-responsive.css",
+                    //"/css/bootstrap.css",
+                    "/css/bootstrap3/bootstrap.css",
+                    "/css/bootstrap3/bootstrap-theme.css",
 					"/css/forms.css",
 					"/css/main.css",
 //					"/css/content.css",
@@ -237,10 +238,12 @@ class CHelperAssets
 				$prefix = 'js';
 				
 				$js =  array(
-					"/js/jquery_min.js",
-					"/js/jquery-ui_full_min.js",
-					
-					"/js/bootstrap.js",
+                    //"/js/jquery_min.js",
+                    "/js/jquery-1.9.1.min.js",
+                    //"/js/jquery-ui_full_min.js",
+                    "js/jquery-ui-1.10.3.custom.min.js",
+
+                    "/js/bootstrap3/bootstrap.js",
 					
 					//                    "/js/jquery.placehold-0.2.min.js",
 					//                    "/js/modernizr-1.7.min.js",

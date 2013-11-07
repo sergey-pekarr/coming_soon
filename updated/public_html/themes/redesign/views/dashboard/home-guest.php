@@ -1,13 +1,13 @@
 <!-- <div class="container"></div> -->
-<div class="row-fluid">
-    <div class="span7">
+<div class="row">
+    <div class="col-md-7">
         <div class="inline">
             <h3>Welcome back, Roy</h3>
             <span><a class="wrong-user" href="#">Not Roy?</a></span><br>
         </div>
         <?php $this->widget('application.components.UserLoginFormWidget'); ?>                   
     </div>
-    <div class="span4 offset1 login-form-wrapper">
+    <div class="col-md-4 col-md-offset-1 login-form-wrapper">
         <span class="login-form-text">
             The communication marcketplace for people who are anything but average
         </span>
@@ -15,15 +15,15 @@
 </div>
 <br><hr><br><br>
 <!-- <div class="container"> -->
-    <div class="row-fluid">
+    <div class="row">
         <!-- USERS NEAR YOUR PLACE WIDGET -->
-        <div class="span7">
+        <div class="col-md-7">
             <?php $this->widget('application.components.UsersNearYourPlace', array('users'=>$users, 'city'=>$city)); ?>
         </div>
 
         <!-- REGISTRATION FORM -->
         <div class="guest-right"><!-- dirty leftovers from previous yii-based cms --></div>
-        <div id="reg-forms-box" class="span4 offset1">
+        <div id="reg-forms-box" class="col-md-4 col-md-offset-1">
                 <?php 
                 if ( Yii::app()->user->isGuest ) { ?>
                     <h1>Sign up here to get started</h1>
