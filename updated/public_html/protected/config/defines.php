@@ -233,18 +233,18 @@ else
 	
     //DB
     define('DB_NAME', 'ms');
-    define('DB_USER', 'meetsi');
+    define('DB_USER', 'root');
     define('DB_PASS', 'klfIL69rHo');
     
 	//GEO DB LIB
 	define('DB_NAME_GEO', 'ms_geo');//define('DB_NAME_GEO', 'geo');
-	define('DB_USER_GEO', 'meetsi');
+	define('DB_USER_GEO', 'root');
 	define('DB_PASS_GEO', 'klfIL69rHo');
    
 
     //DB_STATS
 	define('DB_NAME_STATS', 'ms_stats');
-	define('DB_USER_STATS', 'meetsi');
+	define('DB_USER_STATS', 'root');
 	define('DB_PASS_STATS', 'klfIL69rHo');
     
 	//DB_QUIZZ
