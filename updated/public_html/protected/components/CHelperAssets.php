@@ -318,7 +318,7 @@ class CHelperAssets
 			if ( LOCAL || $noCacheUse || $jsCache===false )  
 			{
 				foreach ($js as $f)
-					$versions[] = filemtime(DIR_ROOT.$f);                    
+					$versions[] = filemtime(DIR_ROOT.'/'.$f);
 
 				rsort($versions);
 				
