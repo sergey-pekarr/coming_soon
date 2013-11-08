@@ -11,7 +11,7 @@ label .required {
 form input[type="text"],
 form input[type="password"],
 form select {
-    height: 14px;
+    height: 34px;
     padding: 10px;
     background-color: #FFF;
     color: #555;
@@ -22,7 +22,7 @@ form select {
 }
 
 form select {
-    height: 34px;
+    height: 34px !important;
     padding: 6px 10px;
 }
 
@@ -41,4 +41,12 @@ input[type="checkbox"] {
     border: 0 none;
     border-radius: 5px;
     padding: 6px 15px;
+}
+
+/* datepicker fixes */
+.ui-helper-clearfix {
+    display:none;
+}
+.ui-datepicker {
+    font-size: 10px;
 }

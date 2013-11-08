@@ -71,9 +71,6 @@
                     'showAnim'=>'fold',
                     'dateFormat'=>'yy/mm/dd',
                 ),
-                'htmlOptions'=>array(
-                    'style'=>'height:20px;'
-                ),
             ));
         ?>
         </dd>

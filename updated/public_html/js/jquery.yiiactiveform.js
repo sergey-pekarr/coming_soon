@@ -99,7 +99,7 @@
 			});
 
 			if (settings.validateOnSubmit) {
-				$form.find(':submit').live('mouseup keyup',function(){
+				$form.on('mouseup keyup', ':submit', function(){
 					$form.data('submitObject',$(this));
 				});
 				var validated = false;
