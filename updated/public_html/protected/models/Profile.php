@@ -108,8 +108,14 @@ class Profile
 	            //$age = time() - strtotime($this->data['birthday']);
 	            //$this->data['age'] = floor($age / 31556926); // 31556926 seconds in a year
 	            $this->data['age'] = CHelperProfile::getAge($this->data['birthday']);
-	            
-	            //IMAGE
+
+
+                $this->data['shortName'] = $this->data['username'];
+                if (strlen($this->data['username']) > 16) {
+                    $this->data['shortName'] = substr($this->data['username'], 0, 13) . '...';
+                }
+
+                //IMAGE
 	            $this->data['image'] = Yii::app()->db
 	                    ->createCommand("SELECT * FROM user_image WHERE user_id=:user_id LIMIT ".IMG_PROFILE_MAX)
 	                    ->bindValue(":user_id", $this->id, PDO::PARAM_INT)

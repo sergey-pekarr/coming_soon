@@ -50,6 +50,7 @@ class DashboardController extends Controller {
        // $pages->setCurrentPage($page);
 
 
+        // anonymous access
         if (!Yii::app()->user->checkAccess('free')) {
 
             if (
@@ -80,9 +81,9 @@ class DashboardController extends Controller {
                 );
             }
 
-        } 
-        else { //if userAcces is not 'free'
-            $this->render(
+        }
+        else { // logged in user
+            /*$this->render(
                 'index', 
                 array(
                     'model' => $model,
@@ -90,7 +91,10 @@ class DashboardController extends Controller {
                     'pages' => $pages,
                     'perPage' => $perPage,
                 )
-            );
+            );*/
+            $userProfile = new Profile(Yii::app()->user->id);
+            $this->render('index', array(
+            ));
         }
 
 

@@ -61,7 +61,7 @@ class UserStatusWidget extends CWidget
 					$mIcon = "/images/img/mood/{$mood}.png";
 					$mTitle = 'I\'m feeling...';
 				}
-				$this->render('userstatus', array('selection' => true, 'icon' => $mIcon, 'title' => $mTitle, 
+				$this->render('userstatusMeetsi', array('selection' => true, 'icon' => $mIcon, 'title' => $mTitle, 
 					'text' => $mText, 'class'=>$mclass));
 			}			
 		}
@@ -86,7 +86,7 @@ class UserStatusWidget extends CWidget
 					$mIcon = "/images/img/mood/{$mood}.png";
 					$mTitle = 'I\'m feeling...';
 				}
-				$this->render('userstatus', array('selection' => true, 'icon' => $mIcon, 'title' => $mTitle, 
+				$this->render('userstatusMeetsi', array('selection' => true, 'icon' => $mIcon, 'title' => $mTitle, 
 							'text' => $mText, 'class'=>$mclass));
 			}	
 		}
@@ -105,7 +105,7 @@ class UserStatusWidget extends CWidget
 				else{
 					$mIcon = "/images/img/mood/{$mood}.png";
 					$mTitle = 'Is feeling...';
-					$this->render('userstatus', array('selection' => false, 'icon' => $mIcon, 'title' => $mTitle, 
+					$this->render('userstatusMeetsi', array('selection' => false, 'icon' => $mIcon, 'title' => $mTitle, 
 								'text' => $mText, 'class'=>$mclass));					
 				}
 			}

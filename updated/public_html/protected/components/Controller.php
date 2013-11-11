@@ -20,7 +20,8 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
-    
+
+    public $userProfile = null;
 
 	
 
@@ -255,7 +256,10 @@ return;
                $this->redirect(Yii::app()->createAbsoluteUrl('/'));//'site/registrationStep2'
         }
 */
-        
+        if (Yii::app()->user->id) {
+            $this->userProfile = new Profile(Yii::app()->user->id);
+        }
+
         if (YII_DEBUG)
         {
             $end_time = microtime();// ������ �� ��, ��� � � start.php, ������ ���������� ������ ����������

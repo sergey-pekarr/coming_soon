@@ -1,4 +1,4 @@
-<?php
+<?php /*
 $userprofile = new Profile(Yii::app()->user->id);
 $userImg = $userprofile->imgUrl('small');
 
@@ -97,11 +97,11 @@ if(!CHelperProfile::getPaymentLinkWithAction('viewfavourite', Yii::app()->user->
         <li class="spacer"></li>
 		<?php //$this->widget('application.components.Fan.FanMenuItemWidget', array('userprofile'=>$userprofile, 'group' => false)); ?>
 		
-		<?php /* if($userprofile->getDataValue('role') == 'gold') { ?>
+		<?php *//* if($userprofile->getDataValue('role') == 'gold') { ?>
 		<li>
 			<img class="iconunlimitedporn" alt="Unlimited porn" src="/images/ulp.gif"><a title="Unlimited porn"
 				href="javascript:void()" onclick="showUlp();"><strong>Unlimited porn</strong></a><span></span></li>
-		<?php } */ ?>
+		<?php } *//* ?>
         <li>
             <img class="iconVip" alt="Vip icon" src="/images/img/blank.gif"><a href="/profile/levelup">Prestige
                 Membership</a></li>
@@ -163,4 +163,14 @@ $(document).ready(function () {
 });
 
 </script>
+<?php */ ?>
 
+<?php $this->widget('application.components.common.UserStatusWidget', array('profile' => $this->userProfile, 'sidebar' => true )); ?>
+
+<div class="sidebar-profile-wrapper">
+    <a class="sidebar-profile-image" href="/profile"><img alt="" src="<?php echo $this->userProfile->imgUrl('small'); ?>" width="32" height="32"></a>
+    <div class="sidebar-profile-links">
+        <div class="sidebar-profile-name"><?php echo $this->userProfile->getData()['shortName']; ?></div>
+        <a class="sidebar-profile-edit" href="/profile">Edit My Profile</a>
+    </div>
+</div>
